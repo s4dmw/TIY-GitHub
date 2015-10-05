@@ -1,0 +1,27 @@
+{
+  "name": "tiy-github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "bs": "browser-sync start --server --directory --files='*.html, src/js/*.js, src/css/*.css'",
+    "sass": "node-sass --output-style expanded src/scss/main.scss src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s4dmw/TIY-GitHub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s4dmw/TIY-GitHub/issues"
+  },
+  "homepage": "https://github.com/s4dmw/TIY-GitHub#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "node-sass": "^3.3.3"
+  }
+}
