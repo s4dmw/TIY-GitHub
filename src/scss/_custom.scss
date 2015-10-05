@@ -10,15 +10,49 @@ div {
   width: 1000px;
 }
 
-
-#user_info {
+#user-info {
   background-color: lightgray;
   box-sizing: border-box;
   float: left;
   width: 24%;
   margin-right: 1%;
-  height: 500px;
-}
+  height: 600px;
+  img {
+    width: 100%;
+  }
+
+  #user-name h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #user-name h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+  ul#details {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  section#stats{
+    a {
+      display: inline-block;
+      text-align: center;
+      strong{
+        display: block;
+        font-size: 2em;
+      }
+      span {
+        font-size: 1em;
+        font-weight: 300;
+
+      }
+    }
+  }//end section#stats
+} // end user_info section
+
+
+
 
 #main {
   background-color: lightgray;
