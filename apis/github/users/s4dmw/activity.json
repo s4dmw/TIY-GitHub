@@ -1,0 +1,2291 @@
+[
+  {
+    "id": "3209480036",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43319795,
+      "name": "jeffworley/tiy-github",
+      "url": "https://api.github.com/repos/jeffworley/tiy-github"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jeffworley/tiy-github/issues/11",
+        "labels_url": "https://api.github.com/repos/jeffworley/tiy-github/issues/11/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jeffworley/tiy-github/issues/11/comments",
+        "events_url": "https://api.github.com/repos/jeffworley/tiy-github/issues/11/events",
+        "html_url": "https://github.com/jeffworley/tiy-github/pull/11",
+        "id": 109878317,
+        "number": 11,
+        "title": "feature--my-little-profile",
+        "user": {
+          "login": "jeffworley",
+          "id": 4316268,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4316268?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jeffworley",
+          "html_url": "https://github.com/jeffworley",
+          "followers_url": "https://api.github.com/users/jeffworley/followers",
+          "following_url": "https://api.github.com/users/jeffworley/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jeffworley/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jeffworley/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jeffworley/subscriptions",
+          "organizations_url": "https://api.github.com/users/jeffworley/orgs",
+          "repos_url": "https://api.github.com/users/jeffworley/repos",
+          "events_url": "https://api.github.com/users/jeffworley/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jeffworley/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-10-05T20:23:23Z",
+        "updated_at": "2015-10-05T20:27:58Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jeffworley/tiy-github/pulls/11",
+          "html_url": "https://github.com/jeffworley/tiy-github/pull/11",
+          "diff_url": "https://github.com/jeffworley/tiy-github/pull/11.diff",
+          "patch_url": "https://github.com/jeffworley/tiy-github/pull/11.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jeffworley/tiy-github/issues/comments/145657761",
+        "html_url": "https://github.com/jeffworley/tiy-github/pull/11#issuecomment-145657761",
+        "issue_url": "https://api.github.com/repos/jeffworley/tiy-github/issues/11",
+        "id": 145657761,
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T20:27:58Z",
+        "updated_at": "2015-10-05T20:27:58Z",
+        "body": "looks good :+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:27:58Z"
+  },
+  {
+    "id": "3209456781",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 816091553,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature--my-little-profile",
+      "head": "496710b5f4020f5094a4556c689b5331a488e4a6",
+      "before": "ab48658886b9404a5a7a7426b9d88cac4e26570e",
+      "commits": [
+        {
+          "sha": "496710b5f4020f5094a4556c689b5331a488e4a6",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "still getting back to the starting point",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-GitHub/commits/496710b5f4020f5094a4556c689b5331a488e4a6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:21:34Z"
+  },
+  {
+    "id": "3209428785",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 816081347,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature--my-little-profile",
+      "head": "ab48658886b9404a5a7a7426b9d88cac4e26570e",
+      "before": "1cd26f0ca5acf92b6153e361e024eec7e76bc761",
+      "commits": [
+        {
+          "sha": "ab48658886b9404a5a7a7426b9d88cac4e26570e",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "getting back to the starting point",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-GitHub/commits/ab48658886b9404a5a7a7426b9d88cac4e26570e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:13:47Z"
+  },
+  {
+    "id": "3209330625",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--my-little-profile",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:46:42Z"
+  },
+  {
+    "id": "3209329764",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--FILL_ME_IN",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:46:28Z"
+  },
+  {
+    "id": "3209305202",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 816037608,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "88031502b7f9626d56c82249681e9d3c0b69100b",
+      "before": "895aa2d51e2562d9dec08b1197f3e77660ac210c",
+      "commits": [
+        {
+          "sha": "88031502b7f9626d56c82249681e9d3c0b69100b",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "more housecleaning",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-GitHub/commits/88031502b7f9626d56c82249681e9d3c0b69100b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:39:37Z"
+  },
+  {
+    "id": "3209303232",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 816036888,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "895aa2d51e2562d9dec08b1197f3e77660ac210c",
+      "before": "1cd26f0ca5acf92b6153e361e024eec7e76bc761",
+      "commits": [
+        {
+          "sha": "895aa2d51e2562d9dec08b1197f3e77660ac210c",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "house cleaning",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-GitHub/commits/895aa2d51e2562d9dec08b1197f3e77660ac210c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:39:02Z"
+  },
+  {
+    "id": "3209022069",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "push_id": 815936488,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "a591ce4bc726852fd316e64c8f158b94c066f817",
+      "before": "5d2188b176104254942eb7a3e99f69d34f498a00",
+      "commits": [
+        {
+          "sha": "a591ce4bc726852fd316e64c8f158b94c066f817",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David White"
+          },
+          "message": "Create resource-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/commits/a591ce4bc726852fd316e64c8f158b94c066f817"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:21:05Z"
+  },
+  {
+    "id": "3209019508",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "push_id": 815935547,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "5d2188b176104254942eb7a3e99f69d34f498a00",
+      "before": "f45924e868973edff1e9bb8fd35168943027ed1f",
+      "commits": [
+        {
+          "sha": "5d2188b176104254942eb7a3e99f69d34f498a00",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David White"
+          },
+          "message": "Create tutorial-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/commits/5d2188b176104254942eb7a3e99f69d34f498a00"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:20:23Z"
+  },
+  {
+    "id": "3209017115",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "push_id": 815934666,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "f45924e868973edff1e9bb8fd35168943027ed1f",
+      "before": "8614b1d8daa2dfab540deb320da532fa740c9e3e",
+      "commits": [
+        {
+          "sha": "f45924e868973edff1e9bb8fd35168943027ed1f",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David White"
+          },
+          "message": "Create journal-week-5.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/commits/f45924e868973edff1e9bb8fd35168943027ed1f"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:19:46Z"
+  },
+  {
+    "id": "3209007554",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--FILL_ME_IN",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:17:10Z"
+  },
+  {
+    "id": "3209006559",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--profile-placeholders",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:16:55Z"
+  },
+  {
+    "id": "3209005480",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 43315969,
+      "name": "s4dmw/TIY-GitHub",
+      "url": "https://api.github.com/repos/s4dmw/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "release--0.0.2",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:16:38Z"
+  },
+  {
+    "id": "3209003272",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "ref": "release--0.0.0",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:16:00Z"
+  },
+  {
+    "id": "3209002071",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-5",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:15:41Z"
+  },
+  {
+    "id": "3208995687",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/385",
+        "id": 109854482,
+        "number": 385,
+        "title": "20 -- David White",
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2015-10-05T18:12:15Z",
+        "updated_at": "2015-10-05T18:13:53Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [x] Create a _WIP Issue_ with links to:\r\n    * your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [ ] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] in `TIY-Chessboard`\r\n    * [ ] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [ ] named `journal-week-5` from `master`\r\n      * [ ] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [ ] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-5`\r\n      * `journal-week-5.md` or something creative\r\n      * `tutorial-week-5.md` or something creative\r\n      * `resource-week-5.md` or something creative\r\n    * `USERNAME.github.io:release--0.0.0`\r\n      * `.gitignore` -- with the following patterns:\r\n        * `/dist`\r\n        * `/node_modules`\r\n        * `/bower_components`\r\n        * `css`\r\n      * `package.json` -- and `npm install --link --save-dev`\r\n        * `bower`\r\n        * `browser-sync`\r\n        * `gulp`\r\n        * `node-sass`\r\n      * `specs/` -- for **BEAST MODE**\r\n      * `src/` -- from `yo h5bp`\r\n        * `js/`\r\n          * `main.js`\r\n          * nothing else!\r\n        * `scss/`\r\n          * `_common.scss`\r\n          * `_desktop.scss`\r\n          * `_mobile.scss`\r\n          * `_tablet.scss`\r\n          * `main.scss` -- with `@import` links to above\r\n        * `css/` -- DELETED!\r\n        * `index.html`\r\n    * `TIY-GitHub:release--0.0.2`\r\n      * `apis/github/users/`\r\n        * `USERNAME.json` -- for _your_ profile data\r\n        * `USERNAME/`\r\n          * `repos.json` -- for _your_ repository data\r\n          * `activity.json` -- for _your_ public events\r\n      * `src/`\r\n        * `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/145620023",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/385#issuecomment-145620023",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385",
+        "id": 145620023,
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T18:13:53Z",
+        "updated_at": "2015-10-05T18:13:53Z",
+        "body": "PR links go up in here!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:13:53Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3208992062",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/385",
+        "id": 109854482,
+        "number": 385,
+        "title": "20 -- David White",
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-10-05T18:12:15Z",
+        "updated_at": "2015-10-05T18:12:50Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ with links to:\r\n    * your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [ ] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] in `TIY-Chessboard`\r\n    * [ ] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [ ] named `journal-week-5` from `master`\r\n      * [ ] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [ ] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-5`\r\n      * `journal-week-5.md` or something creative\r\n      * `tutorial-week-5.md` or something creative\r\n      * `resource-week-5.md` or something creative\r\n    * `USERNAME.github.io:release--0.0.0`\r\n      * `.gitignore` -- with the following patterns:\r\n        * `/dist`\r\n        * `/node_modules`\r\n        * `/bower_components`\r\n        * `css`\r\n      * `package.json` -- and `npm install --link --save-dev`\r\n        * `bower`\r\n        * `browser-sync`\r\n        * `gulp`\r\n        * `node-sass`\r\n      * `specs/` -- for **BEAST MODE**\r\n      * `src/` -- from `yo h5bp`\r\n        * `js/`\r\n          * `main.js`\r\n          * nothing else!\r\n        * `scss/`\r\n          * `_common.scss`\r\n          * `_desktop.scss`\r\n          * `_mobile.scss`\r\n          * `_tablet.scss`\r\n          * `main.scss` -- with `@import` links to above\r\n        * `css/` -- DELETED!\r\n        * `index.html`\r\n    * `TIY-GitHub:release--0.0.2`\r\n      * `apis/github/users/`\r\n        * `USERNAME.json` -- for _your_ profile data\r\n        * `USERNAME/`\r\n          * `repos.json` -- for _your_ repository data\r\n          * `activity.json` -- for _your_ public events\r\n      * `src/`\r\n        * `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/145619684",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/385#issuecomment-145619684",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385",
+        "id": 145619684,
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T18:12:50Z",
+        "updated_at": "2015-10-05T18:12:50Z",
+        "body": "\r\n### Journal, Week 5\r\n\r\nWelcome to Week 6!\r\n\r\nIn addition to your reflective journal entry and your tutorial journal entry this week, also share a bookmarked URL to a tool or article. That sounds easy, doesn't it? But wait, there's more... Write a paragraph _explaining_ the resource you're linking to and why it was helpful. Give us the [**tl;dr**](https://en.wikipedia.org/wiki/TL;DR) on that article or just the important parts of the documentation: installation, usage, why it exists. Keep it simple.\r\n\r\n### Reading APIs\r\n\r\nDid you finish all of your questions and terms last week? No? Finish them tonight!\r\n\r\n### Getting Ready for the Week\r\n\r\nWe're going to use some cool new tools this week, which means **yak-shaving** today.\r\n\r\nYou'll want to _globally_ install two new tools: [Bower](http://bower.io/) and [Gulp](http://gulpjs.com/). Hmmm, how do you globally install? \r\n\r\nNow, in your `USERNAME.github.io` repo, create a new branch called `release--0.0.0`. You'll have to set up this branch like you've set up previous projects. That means `.gitignore`, `package.json`, `src/` -- check out the bullet points under **Yak-Shaving** above to figure out what _exactly_ you need to get this new project setup.\r\n\r\n##### BEAST MODE\r\n\r\nIf you were designing a blog, what would you want it to look like? Check out some templating sites like [ThemeForest](http://themeforest.net/) and [WrapBootstrap](https://wrapbootstrap.com/) and find a template you like. **DO NOT BUY IT.** Instead, check out the demos and Skitch the layout you decide on. Be sure to Skitch it for different responsive views as well. Then upload the Skitches to `/specs` in your `USERNAME.github.io` repo. You'll be building this soon!\r\n\r\n### GitHub Revolution, Part 3: Octocat's Revenge\r\n\r\n_For the love of everything holy, please **MERGE YOUR PRs FROM LAST WEEK**_ if you haven't done so already. While you're at it, also `git checkout` your `master` branch and `git pull` that sucker to get your previous work merged locally. Feel free to delete all those remotely merged branches, too.\r\n\r\nFor tonight, start by creating a _new_ branch named `release--0.0.2` from `master` in your `TIY-GitHub` repository. Like last week's GitHub Revolution, all of your work will be on _feature_ branches named with the `feature--` prefix. Be sure to link _each_ of your PRs that merge your feature branches into `release--0.0.2` _and_ your PR from `release-0.0.2` into `master`.\r\n\r\n#### :musical_note: **WHO... ARE YOU?** :musical_note:\r\n\r\nNow it's time to fetch your _own_ data. We'll need it later. Don't just slurp it down, though, check it out. Make sure it's correct... well, _looks_ correct.\r\n\r\nFirst, save the JSON data from the GitHub API for your own username. Remember where that is? Make sure you get the list of repositories that belong to you, too. Finally, get your most recent _public activity_. You might have to do a little hunting. Too bad it's not all linked from your profile data...\r\n\r\nGive [Postman](https://getpostman.com) a shot this time around and explore a little. What other data can you get out of the API for yourself? Even unauthenticated? Save your data to files in `apis/github/users/`, just like we did for Octocat.\r\n\r\nCommit your JSON files into a branch named `feature--my-little-profile` and open a PR into `release--0.0.2` for review, merge when you get 2x :+1:s.\r\n\r\n#### Twirl Your Moustache...\r\n\r\nTime for the basics of [templates](https://en.wikipedia.org/wiki/Template_processor). Go back to the HTML for the profile column you finished last week. Start by replacing _one_ of your list items with mustachioed placeholders (`{{key_name}}`) that match the key in the API data that the value represents. For example, the text `The Octocat` comes from the `name` key in `octocat.json`, so replace that text with `{{name}}`.\r\n\r\n_Put this work in the `feature--profile-placeholders` branch_ and open a PR into `release--0.0.2`, just like we did last time.\r\n\r\n##### BEAST MODE\r\n\r\nAs you can imagine, we're going to use jQuery to replace those placeholders with the _actual_ values from the JSON data, but can you figure out _how?_ First you need to learn (or review) how to replace the contents of a tag with both the DOM and jQuery APIs. Second, how can you _select_ the appropriate tags to update? Finally, how could you update _the same HTML a second time_ with data from your _own_ profile?\r\n\r\n#### Turn the Page... Well, at least finish it up.\r\n\r\nLast week, we wrote the HTML and (S)CSS to get the _outermost_ layout elements and the left column. It's time for your next \"feature\": the larger section on the right, which is broken up into three sub-sections controlled by [a Tabbed Document Interface (TDI) or \"tabbed panels\"](https://en.wikipedia.org/wiki/Tab_(GUI)). We'll focus on the \"Repositories\" panel tonight:\r\n\r\n![Note the active tab...](octocat--repositories--full.png)\r\n\r\n##### Put it on my tab(s)...\r\n\r\nFor your _first_ feature, focus on the tabs that appear at the top of the right column:\r\n\r\n![Put it on my tabs...](octocat--tabs.png)\r\n\r\nDon't neglect the button-like (hint!) interfaces to the right _or_ forget to write jQuery / JavaScript to make the `.active` (suggestion!) tab the last one clicked. Start with three _inactive_ tabs, though. Write enough JavaScript to make \"Repositories\" _always_ active. Then make them update _just the tabs_... somehow. With jQuery magic.\r\n\r\n_Please do **NOT** use [jQuery UI](http://ui.jquery.com) for these tabs._ Discovering how the magic works is what this assignment is all about.\r\n\r\nCreate another new branch based on `release--0.0.2` called `feature--main-column-tabs`. Push that to GitHub as soon as you're able and open a PR into `release--0.0.2` again. Get feedback _often_ and adjust your work accordingly until you get 2x :+1:s, then merge your work.\r\n\r\n##### Who wants to look at an empty list?\r\n\r\nNow we're ready to build out the \"Repositories\" section: the part of the page that corresponds to the \"Repositories\" tab. Hmm, wonder what would make a good connection between those two...? Any semantic tags coming to mind? What could we use that would work, even if we had CSS turned off? That's right, start with MF'g HTML that _just works_.\r\n\r\nThen, look at the Skitches you placed in your `specs/` folder for that section of the page. Since it's pretty obvious that we're going to replace all of this with some kind of jQuery magic, just build out _three (3)_ examples of Octocat's repositories: \"Spoon-Knife\", \"Hello-World\" and \"octocat.github.io\".\r\n\r\nLike before, push this branch to GitHub and open a PR into `release--0.0.2` as soon as you have a commit. Merge it when you're finished (enough) and have gotten solid code reviews. Then `git pull` the updates into your local `release--0.0.2` branch.\r\n\r\n##### BEAST MODE\r\n\r\nYou could probably guess this step, but we'll walk through it anyway. Create a new branch from `release--0.0.2` named `feature--repo-list-placeholders` for your work. Start replacing the data in one of your example repos with mustachioed placeholders that correspond to the keys in the API data for a _single_ repository. We'll figure out the rest together."
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:12:50Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3208989976",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/385/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/385",
+        "id": 109854482,
+        "number": 385,
+        "title": "20 -- David White",
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-10-05T18:12:15Z",
+        "updated_at": "2015-10-05T18:12:15Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ with links to:\r\n    * your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [ ] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] in `TIY-Chessboard`\r\n    * [ ] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [ ] named `journal-week-5` from `master`\r\n      * [ ] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [ ] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-5`\r\n      * `journal-week-5.md` or something creative\r\n      * `tutorial-week-5.md` or something creative\r\n      * `resource-week-5.md` or something creative\r\n    * `USERNAME.github.io:release--0.0.0`\r\n      * `.gitignore` -- with the following patterns:\r\n        * `/dist`\r\n        * `/node_modules`\r\n        * `/bower_components`\r\n        * `css`\r\n      * `package.json` -- and `npm install --link --save-dev`\r\n        * `bower`\r\n        * `browser-sync`\r\n        * `gulp`\r\n        * `node-sass`\r\n      * `specs/` -- for **BEAST MODE**\r\n      * `src/` -- from `yo h5bp`\r\n        * `js/`\r\n          * `main.js`\r\n          * nothing else!\r\n        * `scss/`\r\n          * `_common.scss`\r\n          * `_desktop.scss`\r\n          * `_mobile.scss`\r\n          * `_tablet.scss`\r\n          * `main.scss` -- with `@import` links to above\r\n        * `css/` -- DELETED!\r\n        * `index.html`\r\n    * `TIY-GitHub:release--0.0.2`\r\n      * `apis/github/users/`\r\n        * `USERNAME.json` -- for _your_ profile data\r\n        * `USERNAME/`\r\n          * `repos.json` -- for _your_ repository data\r\n          * `activity.json` -- for _your_ public events\r\n      * `src/`\r\n        * `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:12:15Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3206569379",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "push_id": 815009505,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "eeed2969bcc51f29b30e2fde67e24b22c6498ac4",
+      "before": "97456356f5fde2023671c4a199878f3d603713ee",
+      "commits": [
+        {
+          "sha": "eeed2969bcc51f29b30e2fde67e24b22c6498ac4",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David White"
+          },
+          "message": "Update creative-tutorial-title-week-4.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/commits/eeed2969bcc51f29b30e2fde67e24b22c6498ac4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T02:30:31Z"
+  },
+  {
+    "id": "3206568968",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19",
+        "labels_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19/labels{/name}",
+        "comments_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19/comments",
+        "events_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19/events",
+        "html_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19",
+        "id": 109644563,
+        "number": 19,
+        "title": "Update creative-tutorial-title-week-4.md",
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2015-10-03T20:44:26Z",
+        "updated_at": "2015-10-05T02:30:11Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/19",
+          "html_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19",
+          "diff_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19.diff",
+          "patch_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/comments/145413080",
+        "html_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19#issuecomment-145413080",
+        "issue_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19",
+        "id": 145413080,
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T02:30:11Z",
+        "updated_at": "2015-10-05T02:30:11Z",
+        "body": "ah, good catch...thanks!"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T02:30:11Z"
+  },
+  {
+    "id": "3206544269",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41692158,
+      "name": "jeffworley/jeffworley.github.io",
+      "url": "https://api.github.com/repos/jeffworley/jeffworley.github.io"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/jeffworley/jeffworley.github.io/issues/17",
+        "labels_url": "https://api.github.com/repos/jeffworley/jeffworley.github.io/issues/17/labels{/name}",
+        "comments_url": "https://api.github.com/repos/jeffworley/jeffworley.github.io/issues/17/comments",
+        "events_url": "https://api.github.com/repos/jeffworley/jeffworley.github.io/issues/17/events",
+        "html_url": "https://github.com/jeffworley/jeffworley.github.io/pull/17",
+        "id": 109707464,
+        "number": 17,
+        "title": "tutorial-week-4.md",
+        "user": {
+          "login": "jeffworley",
+          "id": 4316268,
+          "avatar_url": "https://avatars.githubusercontent.com/u/4316268?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/jeffworley",
+          "html_url": "https://github.com/jeffworley",
+          "followers_url": "https://api.github.com/users/jeffworley/followers",
+          "following_url": "https://api.github.com/users/jeffworley/following{/other_user}",
+          "gists_url": "https://api.github.com/users/jeffworley/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/jeffworley/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/jeffworley/subscriptions",
+          "organizations_url": "https://api.github.com/users/jeffworley/orgs",
+          "repos_url": "https://api.github.com/users/jeffworley/repos",
+          "events_url": "https://api.github.com/users/jeffworley/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/jeffworley/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 3,
+        "created_at": "2015-10-04T21:56:57Z",
+        "updated_at": "2015-10-05T02:08:18Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/jeffworley/jeffworley.github.io/pulls/17",
+          "html_url": "https://github.com/jeffworley/jeffworley.github.io/pull/17",
+          "diff_url": "https://github.com/jeffworley/jeffworley.github.io/pull/17.diff",
+          "patch_url": "https://github.com/jeffworley/jeffworley.github.io/pull/17.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/jeffworley/jeffworley.github.io/issues/comments/145411629",
+        "html_url": "https://github.com/jeffworley/jeffworley.github.io/pull/17#issuecomment-145411629",
+        "issue_url": "https://api.github.com/repos/jeffworley/jeffworley.github.io/issues/17",
+        "id": 145411629,
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T02:08:18Z",
+        "updated_at": "2015-10-05T02:08:18Z",
+        "body": "looks good. i'm still working on doing more pseudo-coding before i dive and and start coding. good read. :+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T02:08:18Z"
+  },
+  {
+    "id": "3206540451",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 42893220,
+      "name": "s4dmw/TIY-Chessboard",
+      "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 814997220,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "7a64fb515c82cf7f017cd66c276dfbd4d71ff3c6",
+      "before": "74c37b9548e7f488a77ee0aed3cd408e84e650e9",
+      "commits": [
+        {
+          "sha": "5c4508286f5a98bd486db510701a9469638dc5c3",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "got play/pause working thanks to al_the_x. still a few tweaks needed",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/5c4508286f5a98bd486db510701a9469638dc5c3"
+        },
+        {
+          "sha": "6a65a3aa5d773fbd562e0e0dd1e86b1258edfdaa",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "cleaned up pause/play functionality",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/6a65a3aa5d773fbd562e0e0dd1e86b1258edfdaa"
+        },
+        {
+          "sha": "633e21e22dd13c27cfeb6a3f8065ffd938dd4f1f",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "house cleaning/tracer removal service",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/633e21e22dd13c27cfeb6a3f8065ffd938dd4f1f"
+        },
+        {
+          "sha": "7a64fb515c82cf7f017cd66c276dfbd4d71ff3c6",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "remove button background color. looks better with color but looks weird when pressed. will investigate later",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/7a64fb515c82cf7f017cd66c276dfbd4d71ff3c6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T02:04:59Z"
+  },
+  {
+    "id": "3206255688",
+    "type": "CommitCommentEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 42893220,
+      "name": "s4dmw/TIY-Chessboard",
+      "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard"
+    },
+    "payload": {
+      "comment": {
+        "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/comments/13582348",
+        "html_url": "https://github.com/s4dmw/TIY-Chessboard/commit/900e5313721533a012573c83a22a62d3eda01851#commitcomment-13582348",
+        "id": 13582348,
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "position": null,
+        "line": null,
+        "path": "",
+        "commit_id": "900e5313721533a012573c83a22a62d3eda01851",
+        "created_at": "2015-10-04T21:06:05Z",
+        "updated_at": "2015-10-04T21:06:05Z",
+        "body": "commit message should read \"game menu is NOW populated by menu.js based on the api\""
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T21:06:05Z"
+  },
+  {
+    "id": "3206252766",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 42893220,
+      "name": "s4dmw/TIY-Chessboard",
+      "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 814870766,
+      "size": 32,
+      "distinct_size": 32,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "74c37b9548e7f488a77ee0aed3cd408e84e650e9",
+      "before": "c2d28775aeada03632d3630426b538d237419312",
+      "commits": [
+        {
+          "sha": "e64c26e8573055b6c6ecec6ef2b7b7d4618fef02",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "wire buttons up in controller, fire tracers",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/e64c26e8573055b6c6ecec6ef2b7b7d4618fef02"
+        },
+        {
+          "sha": "8bb19637eccf22b80b394c1576b2968d1c104d06",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "added conditions to game.next and game.prev to prevent counter from going past moves.length and below 0",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/8bb19637eccf22b80b394c1576b2968d1c104d06"
+        },
+        {
+          "sha": "ac9c918c349bcd05df0df487d4496acf3d499668",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "tweaked the board a little a removed the pieces...for now",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/ac9c918c349bcd05df0df487d4496acf3d499668"
+        },
+        {
+          "sha": "792b9295f5ef72654d7cda06bc6b64b23c63bf12",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "tidied up index.html...no need for all those ids and classes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/792b9295f5ef72654d7cda06bc6b64b23c63bf12"
+        },
+        {
+          "sha": "9937eebbdb7926941030b7890f379251f4dda8d0",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "got the view helpers working",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/9937eebbdb7926941030b7890f379251f4dda8d0"
+        },
+        {
+          "sha": "502b3e90757db787ea4f66c8f44e2d2d83d6b0f9",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "controllers now tells the view what to display",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/502b3e90757db787ea4f66c8f44e2d2d83d6b0f9"
+        },
+        {
+          "sha": "f69a32ee1fb51b5a7cebd9518d4a0628e05b911b",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "removed tracers. still need to work on play/pause",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/f69a32ee1fb51b5a7cebd9518d4a0628e05b911b"
+        },
+        {
+          "sha": "b71f817b7bfba94194bec3c9c0a9971d2c9e6da6",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "cleaned up view-helpers and added some comments",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/b71f817b7bfba94194bec3c9c0a9971d2c9e6da6"
+        },
+        {
+          "sha": "ceaab10864ba4392ce0a950ebe73a5f0f625e579",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "still a long way to go with the scss",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/ceaab10864ba4392ce0a950ebe73a5f0f625e579"
+        },
+        {
+          "sha": "b99ca37c14efc18d0723b46de13d077f2dbd6750",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "set the play/pause button up to 'toggle'",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/b99ca37c14efc18d0723b46de13d077f2dbd6750"
+        },
+        {
+          "sha": "c92cd74140300ab3365374ce8e3c4252932794df",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "got play working properly but can't pause it yet",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/c92cd74140300ab3365374ce8e3c4252932794df"
+        },
+        {
+          "sha": "6fc138bff1f9b66ce302ad945216eaadb6252165",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "changed moves var to be an array of dictionaries. removed my tracer bullets for now",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/6fc138bff1f9b66ce302ad945216eaadb6252165"
+        },
+        {
+          "sha": "4b02dad1b05496d997ffe9cd466422585400c50e",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "cleaned up and refactored scss...still need to work on responsiveness",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/4b02dad1b05496d997ffe9cd466422585400c50e"
+        },
+        {
+          "sha": "922ab253aad4b51d31864b2c82ab308b9b347589",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "create games.json an put my moves in it. maybe add more games later to choose from",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/922ab253aad4b51d31864b2c82ab308b9b347589"
+        },
+        {
+          "sha": "2962900eecd815e5419771ad10a8658dcd201616",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "changed the model to grab the moves from games.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/2962900eecd815e5419771ad10a8658dcd201616"
+        },
+        {
+          "sha": "31093aa39b4ab0490ec04f45785e1e95715a58ff",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "created a little script to play with the setTimeout command",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/31093aa39b4ab0490ec04f45785e1e95715a58ff"
+        },
+        {
+          "sha": "055480045dac732159e9f06ba5777bc7899ccff6",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "moved games.json to apis/",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/055480045dac732159e9f06ba5777bc7899ccff6"
+        },
+        {
+          "sha": "533e417c243e24b91108d255ca05c37d8f32397c",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "add and wire up menu to choose game opening",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/533e417c243e24b91108d255ca05c37d8f32397c"
+        },
+        {
+          "sha": "04fed9ce314e9c2402f5585c3589bfc2fab8fe5c",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "trying to structure my api",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/04fed9ce314e9c2402f5585c3589bfc2fab8fe5c"
+        },
+        {
+          "sha": "4b4c30377e72f2ef544e79eb70a0dac48bb37ca4",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "game loads moves based on menu selection",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/4b4c30377e72f2ef544e79eb70a0dac48bb37ca4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-04T21:03:23Z"
+  },
+  {
+    "id": "3206093797",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41693945,
+      "name": "ericksonk/ericksonk.github.io",
+      "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14",
+        "labels_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14/labels{/name}",
+        "comments_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14/comments",
+        "events_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14/events",
+        "html_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14",
+        "id": 109659955,
+        "number": 14,
+        "title": "Tutorial Week 4",
+        "user": {
+          "login": "ericksonk",
+          "id": 14016182,
+          "avatar_url": "https://avatars.githubusercontent.com/u/14016182?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ericksonk",
+          "html_url": "https://github.com/ericksonk",
+          "followers_url": "https://api.github.com/users/ericksonk/followers",
+          "following_url": "https://api.github.com/users/ericksonk/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ericksonk/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ericksonk/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ericksonk/subscriptions",
+          "organizations_url": "https://api.github.com/users/ericksonk/orgs",
+          "repos_url": "https://api.github.com/users/ericksonk/repos",
+          "events_url": "https://api.github.com/users/ericksonk/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ericksonk/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2015-10-04T03:05:46Z",
+        "updated_at": "2015-10-04T18:29:59Z",
+        "closed_at": null,
+        "pull_request": {
+          "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/pulls/14",
+          "html_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14",
+          "diff_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14.diff",
+          "patch_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14.patch"
+        },
+        "body": ""
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/comments/145371356",
+        "html_url": "https://github.com/ericksonk/ericksonk.github.io/pull/14#issuecomment-145371356",
+        "issue_url": "https://api.github.com/repos/ericksonk/ericksonk.github.io/issues/14",
+        "id": 145371356,
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-04T18:29:59Z",
+        "updated_at": "2015-10-04T18:29:59Z",
+        "body": "Very good time saving tool. looks good. :+1: "
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-04T18:30:00Z"
+  },
+  {
+    "id": "3205179333",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 19,
+      "pull_request": {
+        "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/19",
+        "id": 46712923,
+        "html_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19",
+        "diff_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19.diff",
+        "patch_url": "https://github.com/s4dmw/s4dmw.github.io/pull/19.patch",
+        "issue_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19",
+        "number": 19,
+        "state": "open",
+        "locked": false,
+        "title": "Update creative-tutorial-title-week-4.md",
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-03T20:44:26Z",
+        "updated_at": "2015-10-03T20:44:26Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/19/commits",
+        "review_comments_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/19/comments",
+        "review_comment_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19/comments",
+        "statuses_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/statuses/97456356f5fde2023671c4a199878f3d603713ee",
+        "head": {
+          "label": "s4dmw:journal-week-4",
+          "ref": "journal-week-4",
+          "sha": "97456356f5fde2023671c4a199878f3d603713ee",
+          "user": {
+            "login": "s4dmw",
+            "id": 13879097,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/s4dmw",
+            "html_url": "https://github.com/s4dmw",
+            "followers_url": "https://api.github.com/users/s4dmw/followers",
+            "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+            "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+            "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+            "repos_url": "https://api.github.com/users/s4dmw/repos",
+            "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41694172,
+            "name": "s4dmw.github.io",
+            "full_name": "s4dmw/s4dmw.github.io",
+            "owner": {
+              "login": "s4dmw",
+              "id": 13879097,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/s4dmw",
+              "html_url": "https://github.com/s4dmw",
+              "followers_url": "https://api.github.com/users/s4dmw/followers",
+              "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+              "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+              "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+              "repos_url": "https://api.github.com/users/s4dmw/repos",
+              "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/s4dmw/s4dmw.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io",
+            "forks_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/forks",
+            "keys_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/events",
+            "assignees_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/merges",
+            "archive_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:53:03Z",
+            "updated_at": "2015-08-31T18:53:03Z",
+            "pushed_at": "2015-10-03T20:44:15Z",
+            "git_url": "git://github.com/s4dmw/s4dmw.github.io.git",
+            "ssh_url": "git@github.com:s4dmw/s4dmw.github.io.git",
+            "clone_url": "https://github.com/s4dmw/s4dmw.github.io.git",
+            "svn_url": "https://github.com/s4dmw/s4dmw.github.io",
+            "homepage": null,
+            "size": 336,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "s4dmw:master",
+          "ref": "master",
+          "sha": "8614b1d8daa2dfab540deb320da532fa740c9e3e",
+          "user": {
+            "login": "s4dmw",
+            "id": 13879097,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/s4dmw",
+            "html_url": "https://github.com/s4dmw",
+            "followers_url": "https://api.github.com/users/s4dmw/followers",
+            "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+            "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+            "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+            "repos_url": "https://api.github.com/users/s4dmw/repos",
+            "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41694172,
+            "name": "s4dmw.github.io",
+            "full_name": "s4dmw/s4dmw.github.io",
+            "owner": {
+              "login": "s4dmw",
+              "id": 13879097,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/s4dmw",
+              "html_url": "https://github.com/s4dmw",
+              "followers_url": "https://api.github.com/users/s4dmw/followers",
+              "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+              "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+              "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+              "repos_url": "https://api.github.com/users/s4dmw/repos",
+              "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/s4dmw/s4dmw.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io",
+            "forks_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/forks",
+            "keys_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/events",
+            "assignees_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/merges",
+            "archive_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:53:03Z",
+            "updated_at": "2015-08-31T18:53:03Z",
+            "pushed_at": "2015-10-03T20:44:15Z",
+            "git_url": "git://github.com/s4dmw/s4dmw.github.io.git",
+            "ssh_url": "git@github.com:s4dmw/s4dmw.github.io.git",
+            "clone_url": "https://github.com/s4dmw/s4dmw.github.io.git",
+            "svn_url": "https://github.com/s4dmw/s4dmw.github.io",
+            "homepage": null,
+            "size": 336,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/19"
+          },
+          "html": {
+            "href": "https://github.com/s4dmw/s4dmw.github.io/pull/19"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/s4dmw/s4dmw.github.io/issues/19/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/19/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/s4dmw/s4dmw.github.io/pulls/19/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/s4dmw/s4dmw.github.io/statuses/97456356f5fde2023671c4a199878f3d603713ee"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 13,
+        "deletions": 13,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-03T20:44:26Z"
+  },
+  {
+    "id": "3205179161",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 41694172,
+      "name": "s4dmw/s4dmw.github.io",
+      "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io"
+    },
+    "payload": {
+      "push_id": 814376806,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-4",
+      "head": "97456356f5fde2023671c4a199878f3d603713ee",
+      "before": "3579d6b2cc137e42b54214ff0fca989564cfd0c8",
+      "commits": [
+        {
+          "sha": "97456356f5fde2023671c4a199878f3d603713ee",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David White"
+          },
+          "message": "Update creative-tutorial-title-week-4.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/commits/97456356f5fde2023671c4a199878f3d603713ee"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-03T20:44:15Z"
+  },
+  {
+    "id": "3203698635",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 42893220,
+      "name": "s4dmw/TIY-Chessboard",
+      "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 813768437,
+      "size": 5,
+      "distinct_size": 5,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "c2d28775aeada03632d3630426b538d237419312",
+      "before": "88ed2bd676336221fbfe4f8398348cf9fbd9490b",
+      "commits": [
+        {
+          "sha": "28e64e6df19ef5ea48e9cbfac5a5b6e899252734",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "created and tested apply move function",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/28e64e6df19ef5ea48e9cbfac5a5b6e899252734"
+        },
+        {
+          "sha": "2a76621aea2b63e43a86cf4208e089a388370e2e",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "next move function tested and working",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/2a76621aea2b63e43a86cf4208e089a388370e2e"
+        },
+        {
+          "sha": "ef89a36542740fb20f31c7b30d86428a5456c283",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "upddate package.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/ef89a36542740fb20f31c7b30d86428a5456c283"
+        },
+        {
+          "sha": "df2d09a9beac2488e154a702916e049df64a31b1",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "game.prev tested and working",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/df2d09a9beac2488e154a702916e049df64a31b1"
+        },
+        {
+          "sha": "c2d28775aeada03632d3630426b538d237419312",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "game.end finished and tested",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/c2d28775aeada03632d3630426b538d237419312"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-02T20:25:14Z"
+  },
+  {
+    "id": "3202769441",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 42893220,
+      "name": "s4dmw/TIY-Chessboard",
+      "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 4,
+      "pull_request": {
+        "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls/4",
+        "id": 46648914,
+        "html_url": "https://github.com/s4dmw/TIY-Chessboard/pull/4",
+        "diff_url": "https://github.com/s4dmw/TIY-Chessboard/pull/4.diff",
+        "patch_url": "https://github.com/s4dmw/TIY-Chessboard/pull/4.patch",
+        "issue_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues/4",
+        "number": 4,
+        "state": "open",
+        "locked": false,
+        "title": "PR for Assignment 19 to Master",
+        "user": {
+          "login": "s4dmw",
+          "id": 13879097,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/s4dmw",
+          "html_url": "https://github.com/s4dmw",
+          "followers_url": "https://api.github.com/users/s4dmw/followers",
+          "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+          "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+          "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+          "repos_url": "https://api.github.com/users/s4dmw/repos",
+          "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-02T15:34:51Z",
+        "updated_at": "2015-10-02T15:34:51Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": "ad3396e13f9b91739761b7dbaa2800e735e6eb51",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls/4/commits",
+        "review_comments_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls/4/comments",
+        "review_comment_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues/4/comments",
+        "statuses_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/statuses/88ed2bd676336221fbfe4f8398348cf9fbd9490b",
+        "head": {
+          "label": "s4dmw:19--world-war-chess",
+          "ref": "19--world-war-chess",
+          "sha": "88ed2bd676336221fbfe4f8398348cf9fbd9490b",
+          "user": {
+            "login": "s4dmw",
+            "id": 13879097,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/s4dmw",
+            "html_url": "https://github.com/s4dmw",
+            "followers_url": "https://api.github.com/users/s4dmw/followers",
+            "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+            "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+            "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+            "repos_url": "https://api.github.com/users/s4dmw/repos",
+            "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 42893220,
+            "name": "TIY-Chessboard",
+            "full_name": "s4dmw/TIY-Chessboard",
+            "owner": {
+              "login": "s4dmw",
+              "id": 13879097,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/s4dmw",
+              "html_url": "https://github.com/s4dmw",
+              "followers_url": "https://api.github.com/users/s4dmw/followers",
+              "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+              "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+              "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+              "repos_url": "https://api.github.com/users/s4dmw/repos",
+              "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/s4dmw/TIY-Chessboard",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard",
+            "forks_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/forks",
+            "keys_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/teams",
+            "hooks_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/events",
+            "assignees_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/tags",
+            "blobs_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/languages",
+            "stargazers_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/subscription",
+            "commits_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/merges",
+            "archive_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/downloads",
+            "issues_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/releases{/id}",
+            "created_at": "2015-09-21T20:55:50Z",
+            "updated_at": "2015-09-21T21:09:28Z",
+            "pushed_at": "2015-10-02T15:34:52Z",
+            "git_url": "git://github.com/s4dmw/TIY-Chessboard.git",
+            "ssh_url": "git@github.com:s4dmw/TIY-Chessboard.git",
+            "clone_url": "https://github.com/s4dmw/TIY-Chessboard.git",
+            "svn_url": "https://github.com/s4dmw/TIY-Chessboard",
+            "homepage": null,
+            "size": 3256,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "s4dmw:master",
+          "ref": "master",
+          "sha": "71c2fc83afcebb810b1b58f8b33c36804bd8a97b",
+          "user": {
+            "login": "s4dmw",
+            "id": 13879097,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/s4dmw",
+            "html_url": "https://github.com/s4dmw",
+            "followers_url": "https://api.github.com/users/s4dmw/followers",
+            "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+            "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+            "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+            "repos_url": "https://api.github.com/users/s4dmw/repos",
+            "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 42893220,
+            "name": "TIY-Chessboard",
+            "full_name": "s4dmw/TIY-Chessboard",
+            "owner": {
+              "login": "s4dmw",
+              "id": 13879097,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13879097?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/s4dmw",
+              "html_url": "https://github.com/s4dmw",
+              "followers_url": "https://api.github.com/users/s4dmw/followers",
+              "following_url": "https://api.github.com/users/s4dmw/following{/other_user}",
+              "gists_url": "https://api.github.com/users/s4dmw/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/s4dmw/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/s4dmw/subscriptions",
+              "organizations_url": "https://api.github.com/users/s4dmw/orgs",
+              "repos_url": "https://api.github.com/users/s4dmw/repos",
+              "events_url": "https://api.github.com/users/s4dmw/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/s4dmw/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/s4dmw/TIY-Chessboard",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard",
+            "forks_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/forks",
+            "keys_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/teams",
+            "hooks_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/hooks",
+            "issue_events_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/events",
+            "assignees_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/tags",
+            "blobs_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/languages",
+            "stargazers_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/stargazers",
+            "contributors_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/contributors",
+            "subscribers_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/subscribers",
+            "subscription_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/subscription",
+            "commits_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/merges",
+            "archive_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/downloads",
+            "issues_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/labels{/name}",
+            "releases_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/releases{/id}",
+            "created_at": "2015-09-21T20:55:50Z",
+            "updated_at": "2015-09-21T21:09:28Z",
+            "pushed_at": "2015-10-02T15:34:52Z",
+            "git_url": "git://github.com/s4dmw/TIY-Chessboard.git",
+            "ssh_url": "git@github.com:s4dmw/TIY-Chessboard.git",
+            "clone_url": "https://github.com/s4dmw/TIY-Chessboard.git",
+            "svn_url": "https://github.com/s4dmw/TIY-Chessboard",
+            "homepage": null,
+            "size": 3256,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": "ApacheConf",
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": false,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls/4"
+          },
+          "html": {
+            "href": "https://github.com/s4dmw/TIY-Chessboard/pull/4"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues/4"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/s4dmw/TIY-Chessboard/issues/4/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls/4/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/s4dmw/TIY-Chessboard/pulls/4/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/s4dmw/TIY-Chessboard/statuses/88ed2bd676336221fbfe4f8398348cf9fbd9490b"
+          }
+        },
+        "merged": false,
+        "mergeable": true,
+        "mergeable_state": "clean",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 5,
+        "additions": 142,
+        "deletions": 1101,
+        "changed_files": 9
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-02T15:34:52Z"
+  },
+  {
+    "id": "3202767016",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13879097,
+      "login": "s4dmw",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/s4dmw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13879097?"
+    },
+    "repo": {
+      "id": 42893220,
+      "name": "s4dmw/TIY-Chessboard",
+      "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard"
+    },
+    "payload": {
+      "push_id": 813430054,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/19--world-war-chess",
+      "head": "88ed2bd676336221fbfe4f8398348cf9fbd9490b",
+      "before": "8a882d6f588be39e81313da021ab94516ac4710a",
+      "commits": [
+        {
+          "sha": "b83ba883e6ef6f07e7b9c80d1f3d47fc255a198c",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "index.html house cleaning",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/b83ba883e6ef6f07e7b9c80d1f3d47fc255a198c"
+        },
+        {
+          "sha": "2615b4bc5aca0103594b9906d79cbcb24578d2f2",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "rename the old game.js file to main-old.js",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/2615b4bc5aca0103594b9906d79cbcb24578d2f2"
+        },
+        {
+          "sha": "c7b7e0f5754de47c63971843de565a9283d9244f",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "copied starting point for view-helpers.js",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/c7b7e0f5754de47c63971843de565a9283d9244f"
+        },
+        {
+          "sha": "88ed2bd676336221fbfe4f8398348cf9fbd9490b",
+          "author": {
+            "email": "dmwhite@gmail.com",
+            "name": "David"
+          },
+          "message": "move scss into _custom.scss",
+          "distinct": true,
+          "url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/commits/88ed2bd676336221fbfe4f8398348cf9fbd9490b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-02T15:34:09Z"
+  }
+]

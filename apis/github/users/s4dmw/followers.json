@@ -1,0 +1,40 @@
+[
+  {
+    "login": "pakesybot",
+    "id": 13855805,
+    "avatar_url": "https://avatars.githubusercontent.com/u/13855805?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/pakesybot",
+    "html_url": "https://github.com/pakesybot",
+    "followers_url": "https://api.github.com/users/pakesybot/followers",
+    "following_url": "https://api.github.com/users/pakesybot/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pakesybot/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/pakesybot/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/pakesybot/subscriptions",
+    "organizations_url": "https://api.github.com/users/pakesybot/orgs",
+    "repos_url": "https://api.github.com/users/pakesybot/repos",
+    "events_url": "https://api.github.com/users/pakesybot/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/pakesybot/received_events",
+    "type": "User",
+    "site_admin": false
+  },
+  {
+    "login": "ShayHall",
+    "id": 13802039,
+    "avatar_url": "https://avatars.githubusercontent.com/u/13802039?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ShayHall",
+    "html_url": "https://github.com/ShayHall",
+    "followers_url": "https://api.github.com/users/ShayHall/followers",
+    "following_url": "https://api.github.com/users/ShayHall/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ShayHall/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ShayHall/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ShayHall/subscriptions",
+    "organizations_url": "https://api.github.com/users/ShayHall/orgs",
+    "repos_url": "https://api.github.com/users/ShayHall/repos",
+    "events_url": "https://api.github.com/users/ShayHall/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ShayHall/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+]
