@@ -84,6 +84,16 @@ section#main {
     border-bottom: none;
   }
 
+  .contributions::before {
+    content: '\f06b';
+  }
+  .repos::before {
+    content: '\f001';
+  }
+  .activity::before {
+    content: '\f034';
+  }
+
   #buttons {
     float: right;
     padding-top: 2%;
