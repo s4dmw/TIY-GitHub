@@ -10,7 +10,7 @@ div {
   width: 1000px;
 }
 
-#user-info {
+section#user-info {
   background-color: lightgray;
   box-sizing: border-box;
   float: left;
@@ -54,11 +54,49 @@ div {
 
 
 
-#main {
+section#main {
   background-color: lightgray;
-  box-sizing: border-box;
   float: left;
   margin-left: 1%;
   width: 74%;
   height: 1000px;
-}
+
+  nav#tabs {
+    border-bottom: solid 1px;
+  }
+  nav#tabs h3 {
+    // background-color: gray;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  nav#tabs h3.active {
+    // background-color: gray;
+    border-left: solid 1px;
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-bottom: none;
+  }
+
+  .contributions::before {
+    content: '\f06b';
+  }
+  .repos::before {
+    content: '\f001';
+  }
+  .activity::before {
+    content: '\f034';
+  }
+
+  #buttons {
+    float: right;
+    padding-top: 2%;
+  }
+
+} //end main section
