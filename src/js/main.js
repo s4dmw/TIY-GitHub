@@ -8,6 +8,10 @@
     // console.log("clicked a tab");
     $("nav#tabs h3").removeClass("active");
     $(this).addClass("active");
+    $elementId = $("h3.active").get(0).id;
+    console.log($elementId);
+    $("section.panel").addClass("inactive");
+    $("section#"+$elementId).removeClass("inactive");
   });
 
 

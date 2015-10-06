@@ -50,11 +50,50 @@
             <button>Menu</button>
           </section>
           <nav id="tabs">
-            <h3 class="contributions">Contributions</h3>
-            <h3 class="repos">Repositories</h3>
-            <h3 class="activity">Public Activity</h3>
+            <h3 id="contributions">Contributions</h3>
+            <h3 id="repos" class="active">Repositories</h3>
+            <h3 id="activity">Public Activity</h3>
           </nav>
-          <section id="panel"></section>
+          <section id="contributions" class ="panel inactive">
+            <h2>contributions section is now active</h2>
+          </section>
+          <section id="repos" class="panel active">
+            <section id="repos-top">
+              <textarea placeholder="Find a repository"></textarea>
+              <button>search</button>
+              <a href="all">All</a>
+              <a href="sources">Sources</a>
+              <a href="forks">Forks</a>
+              <a href="mirrors">Mirrors</a>
+            </section>
+            <ul id="repo-list">
+              <li class="repo-list-item">
+                <p class="repo-stats">70,444</p>
+                <p class="repo-stats">9,838</p>
+                <p class="repo-stats">CSS</p>
+                <h3>Spoon-Knife</h3>
+                <p id="repo-description">This repo is for demonstration purposes only.</p>
+                <p id="update-time">Updated 9 hours ago</p>
+              </li>
+              <li class="repo-list-item">
+                <p class="repo-stats">1,112</p>
+                <p class="repo-stats">1,401</p>
+                <h3>Hello-World</h3>
+                <p id="repo-description">This your first repo!</p>
+                <p id="update-time">Updated 4 days ago</p>
+              </li>
+              <li class="repo-list-item">
+                <p class="repo-stats">17</p>
+                <p class="repo-stats">10</p>
+                <p class="repo-stats">CSS</p>
+                <h3>octocat.github.io</h3>
+                <p id="update-time">Updated 4 hours ago</p>
+              </li>
+            </ul>
+          </section> <!--end of repos panel-->
+          <section id="activity" class="panel inactive">
+            <h2>activity section is now active</h2>
+          </section>
         </section>
       </div>
         <!--[if lt IE 8]>
