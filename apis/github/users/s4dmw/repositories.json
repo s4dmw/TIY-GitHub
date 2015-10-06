@@ -84,7 +84,12 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 41607075,
@@ -171,7 +176,12 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 41759198,
@@ -258,7 +268,12 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 41641432,
@@ -345,7 +360,12 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 41694172,
@@ -412,13 +432,13 @@
     "releases_url": "https://api.github.com/repos/s4dmw/s4dmw.github.io/releases{/id}",
     "created_at": "2015-08-31T18:53:03Z",
     "updated_at": "2015-08-31T18:53:03Z",
-    "pushed_at": "2015-09-28T18:17:00Z",
+    "pushed_at": "2015-10-05T18:21:04Z",
     "git_url": "git://github.com/s4dmw/s4dmw.github.io.git",
     "ssh_url": "git@github.com:s4dmw/s4dmw.github.io.git",
     "clone_url": "https://github.com/s4dmw/s4dmw.github.io.git",
     "svn_url": "https://github.com/s4dmw/s4dmw.github.io",
     "homepage": null,
-    "size": 272,
+    "size": 336,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": null,
@@ -432,7 +452,12 @@
     "forks": 0,
     "open_issues": 1,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 41607557,
@@ -519,7 +544,12 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 41695174,
@@ -606,7 +636,12 @@
     "forks": 0,
     "open_issues": 0,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 41694225,
@@ -673,13 +708,13 @@
     "releases_url": "https://api.github.com/repos/s4dmw/TIY-Assignments/releases{/id}",
     "created_at": "2015-08-31T18:54:02Z",
     "updated_at": "2015-09-24T18:03:11Z",
-    "pushed_at": "2015-09-28T18:17:25Z",
+    "pushed_at": "2015-10-02T12:50:40Z",
     "git_url": "git://github.com/s4dmw/TIY-Assignments.git",
     "ssh_url": "git@github.com:s4dmw/TIY-Assignments.git",
     "clone_url": "https://github.com/s4dmw/TIY-Assignments.git",
     "svn_url": "https://github.com/s4dmw/TIY-Assignments",
     "homepage": null,
-    "size": 11624,
+    "size": 11724,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "JavaScript",
@@ -689,11 +724,16 @@
     "has_pages": false,
     "forks_count": 0,
     "mirror_url": null,
-    "open_issues_count": 1,
+    "open_issues_count": 0,
     "forks": 0,
-    "open_issues": 1,
+    "open_issues": 0,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 42893220,
@@ -760,13 +800,13 @@
     "releases_url": "https://api.github.com/repos/s4dmw/TIY-Chessboard/releases{/id}",
     "created_at": "2015-09-21T20:55:50Z",
     "updated_at": "2015-09-21T21:09:28Z",
-    "pushed_at": "2015-09-28T18:17:12Z",
+    "pushed_at": "2015-10-05T02:04:57Z",
     "git_url": "git://github.com/s4dmw/TIY-Chessboard.git",
     "ssh_url": "git@github.com:s4dmw/TIY-Chessboard.git",
     "clone_url": "https://github.com/s4dmw/TIY-Chessboard.git",
     "svn_url": "https://github.com/s4dmw/TIY-Chessboard",
     "homepage": null,
-    "size": 0,
+    "size": 3256,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "ApacheConf",
@@ -776,11 +816,16 @@
     "has_pages": false,
     "forks_count": 0,
     "mirror_url": null,
-    "open_issues_count": 0,
+    "open_issues_count": 1,
     "forks": 0,
-    "open_issues": 0,
+    "open_issues": 1,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   },
   {
     "id": 43315969,
@@ -846,27 +891,32 @@
     "labels_url": "https://api.github.com/repos/s4dmw/TIY-GitHub/labels{/name}",
     "releases_url": "https://api.github.com/repos/s4dmw/TIY-GitHub/releases{/id}",
     "created_at": "2015-09-28T17:33:30Z",
-    "updated_at": "2015-09-28T17:33:30Z",
-    "pushed_at": "2015-09-28T18:44:23Z",
+    "updated_at": "2015-09-29T18:14:50Z",
+    "pushed_at": "2015-10-05T20:21:34Z",
     "git_url": "git://github.com/s4dmw/TIY-GitHub.git",
     "ssh_url": "git@github.com:s4dmw/TIY-GitHub.git",
     "clone_url": "https://github.com/s4dmw/TIY-GitHub.git",
     "svn_url": "https://github.com/s4dmw/TIY-GitHub",
     "homepage": null,
-    "size": 0,
+    "size": 8564,
     "stargazers_count": 0,
     "watchers_count": 0,
-    "language": null,
+    "language": "ApacheConf",
     "has_issues": true,
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
     "forks_count": 0,
     "mirror_url": null,
-    "open_issues_count": 1,
+    "open_issues_count": 0,
     "forks": 0,
-    "open_issues": 1,
+    "open_issues": 0,
     "watchers": 0,
-    "default_branch": "master"
+    "default_branch": "master",
+    "permissions": {
+      "admin": true,
+      "push": true,
+      "pull": true
+    }
   }
 ]
