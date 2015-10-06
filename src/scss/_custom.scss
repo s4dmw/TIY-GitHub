@@ -84,19 +84,24 @@ section#main {
     border-bottom: none;
   }
 
-  .contributions::before {
+  h3#contributions::before {
     content: '\f06b';
   }
-  .repos::before {
+  h3#repos::before {
     content: '\f001';
   }
-  .activity::before {
+  h3#activity::before {
     content: '\f034';
   }
 
   #buttons {
     float: right;
     padding-top: 2%;
+  }
+
+  section.panel.inactive {
+    // background-color: gray;
+    display: none;
   }
 
 } //end main section
