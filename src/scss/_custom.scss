@@ -66,6 +66,13 @@ section#main {
   nav#tabs {
     border-bottom: solid 1px lightgray;
   }
+  nav#tabs h3.active {
+    // background-color: gray;
+    border-left: solid 1px lightgray;
+    border-top: solid 1px lightgray;
+    border-right: solid 1px lightgray;
+    margin-bottom: 1px;
+  }
   nav#tabs h3 {
     // background-color: gray;
     display: inline-block;
@@ -78,12 +85,13 @@ section#main {
     padding-top: 2%;
     padding-bottom: 2%;
   }
-  nav#tabs h3.active {
-    // background-color: gray;
-    border-left: solid 1px lightgray;
-    border-top: solid 1px lightgray;
-    border-right: solid 1px lightgray;
-  }
+  // nav#tabs h3.active {
+  //   // background-color: gray;
+  //   border-left: solid 1px lightgray;
+  //   border-top: solid 1px lightgray;
+  //   border-right: solid 1px lightgray;
+  //   margin-bottom: 1px;
+  // }
 
   h3#contributions::before {
     content: '\f06b';
