@@ -27,5 +27,20 @@
     $("section#"+$elementId).removeClass("inactive");
   });
 
+  $.getJSON("../apis/github/users/s4dmw.json", function(){
+    info = arguments[0];
+    // console.log(info.name);
+    $("#user-info img").attr("src", info.avatar_url);
+    $("h1:contains('name')").html(info.name);
+    $("h2:contains('login')").html(info.login);
+    $("li:contains('company')").html(info.company);
+    $("li:contains('location')").html(info.location);
+    $("a:contains('email')").html(info.email).attr("href", "mailto:"+info.email);
+    // console.log(new Date(info.created_at));
+    $("li:contains('created_at')").html(new Date(info.created_at));
+
+  });
+
+
 
 })();

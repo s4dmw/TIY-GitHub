@@ -1,0 +1,29 @@
+{
+  "name": "TIY-GitHub",
+  "version": "0.0.3",
+  "homepage": "https://github.com/s4dmw/TIY-GitHub",
+  "authors": [
+    "David <dmwhite@gmail.com>"
+  ],
+  "description": "TIY-GitHub",
+  "main": "index.html",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1",
+    "modernizr": "~3.1.0",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
