@@ -1,12 +1,12 @@
 {
   "name": "tiy-github",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "bs": "browser-sync start --server --directory --files='*.html, src/js/*.js, src/css/*.css'",
-    "sass": "node-sass --output-style expanded src/scss/main.scss src/css/main.css"
+    "sass": "node-sass --watch --output-style expanded src/scss/main.scss src/css/main.css"
   },
   "repository": {
     "type": "git",
