@@ -96,7 +96,6 @@ textarea {
    ========================================================================== */
 @import 'custom'; // What no underscore? NO! No underscore!
 
-@media (max-width: 750px){@import 'tablet';}
 @media (max-width: 500px){@import 'mobile';}
 
 
