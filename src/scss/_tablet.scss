@@ -46,11 +46,11 @@ nav.active {
     border-bottom: 1px solid white;
 }
 
+div.tablet-view-container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
 
-// <nav id="tablet-view">
-//   <a href="#" class="tablet-about">About</a>
-//   <a href="#" class="tablet-repos">Repositories</a>
-// </nav>
 section#user-info {
   display: none;
 }
@@ -60,6 +60,7 @@ section#user-info.active {
   width:100%;
   height: auto;
   img {
+    // margin-left: 2%;
     width: 35%;
     float: left;
   }
@@ -74,7 +75,23 @@ section#user-info.active {
 
   }
   section#stats {
-    border-bottom: solid 1px lightgray;
+    button {
+      width: 90%;
+      margin-left: 5%;
+      background-color: #5ca941;
+      color: white;
+      border-color: lightgray;
+      margin-bottom: 2%;
+    }
+    .col-1-3 {
+      // background-color: lightgray;
+      width: 100% * (1/3);
+      float: left;
+      text-align: center;
+      border-bottom: solid 1px lightgray;
+      padding-bottom: 2%;
+
+    }
   }
 } //end section#user-info
 
