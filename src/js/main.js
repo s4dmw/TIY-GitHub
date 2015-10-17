@@ -56,14 +56,12 @@
 
   //mobile tabs
   $("nav#tablet-view-left").click(function(){
-    console.log("clicked on the left tablet tab");
     $(this).addClass("active")
     $("nav#tablet-view-right").removeClass("active");
     $("section#user-info").addClass("active");
   });
 
   $("nav#tablet-view-right").click(function(){
-    console.log("clicked on the right tablet tab");
     $(this).addClass("active")
     $("nav#tablet-view-left").removeClass("active");
     $("section#user-info").removeClass("active");

@@ -16,6 +16,12 @@ nav#tabs {
 section#repos-top {
   display: none;
 }
+section#activity {
+  display: none;
+}
+section#contributions {
+  display: none;
+}
 // end of turning things off area
 
 nav {
@@ -44,6 +50,12 @@ nav.active {
     // background-color: lightgray;
     border-top: 2px solid red;
     border-bottom: 1px solid white;
+}
+nav#tablet-view-left {
+  display: inherit;
+}
+nav#tablet-view-right {
+  display: inherit;
 }
 
 div.tablet-view-container {
@@ -76,6 +88,7 @@ section#user-info.active {
   }
   section#stats {
     button {
+      display: inherit;
       width: 90%;
       margin-left: 5%;
       background-color: #5ca941;
@@ -96,6 +109,10 @@ section#user-info.active {
 } //end section#user-info
 
 section#main {
+  display: inherit;
   width: 100%;
   height: auto;
+}
+section#repos.inactive {
+  display: inherit;
 }

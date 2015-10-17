@@ -167,3 +167,16 @@ ul#repo-list li {
 
   }
 }
+nav#tablet-view-left {
+  display: none;
+}
+nav#tablet-view-right {
+  display: none;
+}
+button.tablet-view {
+  display: none;
+}
+section.col-1-3 {
+  width: 100% * (1/3);
+  float: left;
+}
