@@ -1,0 +1,118 @@
+body {
+  // background-color: lightgray;
+  margin-top: 5%;
+  margin-left: 0;
+  margin-right: 0%;
+}
+
+//start by turning things off that we need to hide
+
+section#buttons {
+  display: none;
+}
+nav#tabs {
+  display: none;
+}
+section#repos-top {
+  display: none;
+}
+section#activity {
+  display: none;
+}
+section#contributions {
+  display: none;
+}
+// end of turning things off area
+
+nav {
+  // background-color: lightgray;
+  text-align: center;
+  width: 50%;
+  float: left;
+  border: 1px solid lightgray;
+  margin-left: -1px;
+  margin-right: -1px;
+  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    font-size: 1.5em;
+  }
+  a.active {
+    color: black;
+  }
+
+} //end tablet view nav
+nav.active {
+    // background-color: lightgray;
+    border-top: 2px solid red;
+    border-bottom: 1px solid white;
+}
+nav#tablet-view-left {
+  display: inherit;
+}
+nav#tablet-view-right {
+  display: inherit;
+}
+
+div.tablet-view-container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+section#user-info {
+  display: none;
+}
+
+section#user-info.active {
+  display: inherit;
+  width:100%;
+  height: auto;
+  img {
+    // margin-left: 2%;
+    width: 35%;
+    float: left;
+  }
+  section#user-name {
+    padding-left: 40%;
+  }
+  ul {
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 15%;
+    padding-left: 40%;
+    // float:right;
+
+  }
+  section#stats {
+    button {
+      display: inherit;
+      width: 90%;
+      margin-left: 5%;
+      background-color: #5ca941;
+      color: white;
+      border-color: lightgray;
+      margin-bottom: 2%;
+    }
+    .col-1-3 {
+      // background-color: lightgray;
+      width: 100% * (1/3);
+      float: left;
+      text-align: center;
+      border-bottom: solid 1px lightgray;
+      padding-bottom: 2%;
+
+    }
+  }
+} //end section#user-info
+
+section#main {
+  display: inherit;
+  width: 100%;
+  height: auto;
+}
+section#repos.inactive {
+  display: inherit;
+}
