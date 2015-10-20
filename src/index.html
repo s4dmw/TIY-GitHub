@@ -23,7 +23,7 @@
           <a href="#" class="tablet-repos">Repositories</a>
         </nav>
         <div class="tablet-view-container">
-          <section id="user-info" class="active">
+          <section id="user-info">
             <img>
             <section id="user-name">
               <h1>{{name}}<h1>
@@ -64,14 +64,14 @@
               <button>Menu</button>
             </section>
             <nav id="tabs">
-              <h3 id="contributions">Contributions</h3>
-              <h3 id="repos" class="active">Repositories</h3>
-              <h3 id="activity">Public Activity</h3>
+              <a href="#contributions">Contributions</a>
+              <a href="#repos">Repositories</a>
+              <a href="#activity">Public Activity</a>
             </nav>
-            <section id="contributions" class ="panel inactive">
+            <section id="contributions" class ="panel">
               <h2>contributions section is now active</h2>
             </section>
-            <section id="repos" class="panel active">
+            <section id="repos" class="panel">
               <section id="repos-top">
                 <textarea placeholder="Find a repository"></textarea>
                 <button>search</button>
@@ -105,7 +105,7 @@
                 </li>
               </ul>
             </section> <!--end of repos panel-->
-            <section id="activity" class="panel inactive">
+            <section id="activity" class="panel">
               <h2>activity section is now active</h2>
             </section>
           </section>

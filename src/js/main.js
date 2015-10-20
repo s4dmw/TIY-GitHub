@@ -17,16 +17,11 @@
   // });
   // console.log("outside the function - email: " + email);
 
-  $("nav#tabs h3").on('click', function(){
-    // console.log("clicked a tab");
-    $("nav#tabs h3").removeClass("active");
-    $(this).addClass("active");
-    $elementId = $("h3.active").get(0).id;
-    // console.log($elementId);
-    $("section.panel").addClass("inactive");
-    $("section#"+$elementId).removeClass("inactive");
+  $("nav#tabs a").on('click', function(){
+    $(this).addClass("active").siblings().removeClass("active");
+    $($(this).attr("href")).addClass("active").siblings().removeClass("active");
   });
-  $("h3#repos").trigger('cick');
+  $("a[href='#repos'").trigger('click'); //triggers click to make the repos tab active by default
 
   $.getJSON("../apis/github/users/s4dmw.json", function(){
     info = arguments[0];

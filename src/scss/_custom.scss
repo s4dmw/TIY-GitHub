@@ -72,7 +72,7 @@ section#main {
     border-bottom: solid 1px lightgray;
 
   }
-  nav#tabs h3.active {
+  nav#tabs a.active {
     // background-color: gray;
     border-left: solid 1px lightgray;
     border-top: solid 1px lightgray;
@@ -81,8 +81,9 @@ section#main {
     margin-bottom: 1px;
 
   }
-  nav#tabs h3 {
+  nav#tabs a {
     // background-color: gray;
+    color: black;
     display: inline-block;
     font-weight: 400;
     font-size: 1em;
@@ -118,9 +119,12 @@ section#main {
   }
 } //end top of main section
 
-
-section.panel.inactive {
+section.panel {
   display: none;
+}
+
+section.panel.active {
+  display: inherit;
 }
 
 section#repos-top {
