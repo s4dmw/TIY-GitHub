@@ -45,7 +45,7 @@
 //not the right way to do this but just making something happen so i can go to bed!!
   $.getJSON("../apis/github/users/s4dmw/repositories.json", function(){
     repos = arguments[0][0];
-    console.log(repos);
+    // console.log(repos);
     $("li :contains('name')").html(repos.name);
     $("li :contains('description')").html(repos.description);
     $("li :contains('updated_at')").html(repos.updated_at);
@@ -53,5 +53,19 @@
     $("li :contains('stargazers_count')").html(repos.stargazers_count);
     $("li :contains('forks_count')").html(repos.forks_count);
   }); //end repos section
+
+  //mobile tabs
+  $("nav#tablet-view-left").click(function(){
+    $(this).addClass("active")
+    $("nav#tablet-view-right").removeClass("active");
+    $("section#user-info").addClass("active");
+  });
+
+  $("nav#tablet-view-right").click(function(){
+    $(this).addClass("active")
+    $("nav#tablet-view-left").removeClass("active");
+    $("section#user-info").removeClass("active");
+  });
+
 
 })();

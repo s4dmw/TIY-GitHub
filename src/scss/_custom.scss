@@ -1,6 +1,11 @@
 body {
   margin-top: 1%;
   margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -12,7 +17,7 @@ div {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  // width: 1000px;
 }
 
 section#user-info {
@@ -97,15 +102,15 @@ section#main {
   //   margin-bottom: 1px;
   // }
 
-  h3#contributions::before {
-    content: '\f06b';
-  }
-  h3#repos::before {
-    content: '\f001';
-  }
-  h3#activity::before {
-    content: '\f034';
-  }
+  // h3#contributions::before {
+  //   content: '\f06b';
+  // }
+  // h3#repos::before {
+  //   content: '\f001';
+  // }
+  // h3#activity::before {
+  //   content: '\f034';
+  // }
 
   #buttons {
     float: right;
@@ -161,4 +166,17 @@ ul#repo-list li {
     margin-left: 10px;
 
   }
+}
+nav#tablet-view-left {
+  display: none;
+}
+nav#tablet-view-right {
+  display: none;
+}
+button.tablet-view {
+  display: none;
+}
+section.col-1-3 {
+  width: 100% * (1/3);
+  float: left;
 }
