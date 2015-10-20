@@ -52,15 +52,18 @@
 
   //mobile tabs
   $("nav#tablet-view-left").click(function(){
-    $(this).addClass("active")
+    $(this).addClass("active");
     $("nav#tablet-view-right").removeClass("active");
     $("section#user-info").addClass("active");
+    $("section#repos").addClass("active");
   });
+  $("nav#tablet-view-left").trigger('click');
 
   $("nav#tablet-view-right").click(function(){
-    $(this).addClass("active")
+    $(this).addClass("active");
     $("nav#tablet-view-left").removeClass("active");
     $("section#user-info").removeClass("active");
+    $("section#repos").addClass("active");
   });
 
 
