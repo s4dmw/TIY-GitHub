@@ -26,6 +26,7 @@
     $("section.panel").addClass("inactive");
     $("section#"+$elementId).removeClass("inactive");
   });
+  $("h3#repos").trigger('cick');
 
   $.getJSON("../apis/github/users/s4dmw.json", function(){
     info = arguments[0];
