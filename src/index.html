@@ -72,7 +72,7 @@
             <section id="contributions" class ="panel">
               <h2>contributions section is now active</h2>
             </section>
-            <section id="repos" class="panel">
+            <section id="repos" class="panel" ng-Controller="Repositories as repo">
               <section id="repos-top">
                 <textarea placeholder="Find a repository"></textarea>
                 <button>search</button>
@@ -83,12 +83,12 @@
               </section>
               <ul id="repo-list">
                 <li class="repo-list-item">
-                  <p class="repo-stats">{{forks_count}}</p>
-                  <p class="repo-stats">{{stargazers_count}}</p>
-                  <p class="repo-stats">{{language}}</p>
-                  <h3>{{name}}</h3>
-                  <p id="repo-description">{{description}}</p>
-                  <p id="update-time">{{updated_at}}</p>
+                  <p class="repo-stats">{{repo.forks_count}}</p>
+                  <p class="repo-stats">{{repo.stargazers_count}}</p>
+                  <p class="repo-stats">{{repo.language}}</p>
+                  <h3>{{repo.name}}</h3>
+                  <p id="repo-description">{{repo.description}}</p>
+                  <p id="update-time">{{repo.updated_at | date}}</p>
                 </li>
                 <li class="repo-list-item">
                   <p class="repo-stats">1,112</p>
