@@ -39,7 +39,11 @@ angular.module("tiy-github", [])
       });
     })
 
-
+  .run(function($http, $rootScope){
+    $http.get("../apis/github/repos/TIY-Durham/2015-Fall-FEE/505/comments.json").then(function(arguments){
+      $rootScope.comments = arguments.data;
+    });
+  })
 
 
 })();

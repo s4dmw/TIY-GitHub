@@ -90,7 +90,7 @@
                   <p id="repo-description">{{repo.description}}</p>
                   <p id="update-time">{{repo.updated_at | date}}</p>
                 </li>
-                <li class="repo-list-item">
+                <!-- <li class="repo-list-item">
                   <p class="repo-stats">1,112</p>
                   <p class="repo-stats">1,401</p>
                   <h3>Hello-World</h3>
@@ -103,7 +103,7 @@
                   <p class="repo-stats">CSS</p>
                   <h3>octocat.github.io</h3>
                   <p id="update-time">Updated 4 hours ago</p>
-                </li>
+                </li> -->
               </ul>
             </section> <!--end of repos panel-->
             <section id="activity" class="panel">
@@ -111,6 +111,11 @@
             </section>
           </section>
         </div> <!-- end tablet view container -->
+        <section class="comments" ng-repeat="comments in comments">
+          <span><a href="{{comments.user.html_url}}">{{comments.user.login}}</a>commented at {{comments.created_at | date}}</span>
+          <br>
+          <span>{{comments.body}}</span>
+        </section>
       </div>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
