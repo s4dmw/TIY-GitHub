@@ -68,6 +68,7 @@
               <a href="#" id="contributions">Contributions</a>
               <a href="#" id="repos">Repositories</a>
               <a href="#" id="activity">Public Activity</a>
+              <a href="#" id="comments">Comments</a>
             </nav>
             <section id="contributions" class ="panel">
               <h2>contributions section is now active</h2>
@@ -95,13 +96,17 @@
             <section id="activity" class="panel">
               <h2>activity section is now active</h2>
             </section>
+            <section id="comments" class="panel" >
+              <div class="comment" ng-repeat="comments in comments">
+              <a href="{{comments.user.html_url}}">{{comments.user.login}}</a>commented at {{comments.created_at | date}}
+              <br>
+              {{comments.body}}
+              <br>
+              <br>
+              </div>
+            </section>
           </section>
         </div> <!-- end tablet view container -->
-        <section class="comments" ng-repeat="comments in comments">
-          <span><a href="{{comments.user.html_url}}">{{comments.user.login}}</a>commented at {{comments.created_at | date}}</span>
-          <br>
-          <span>{{comments.body}}</span>
-        </section>
       </div>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

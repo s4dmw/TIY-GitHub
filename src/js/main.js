@@ -3,6 +3,7 @@
   $("nav#tabs a").on('click', function(){
     $(this).addClass("active").siblings().removeClass("active");
     activeId = 'section#' + $(this).attr("id");
+    console.log(activeId);
     $(activeId).addClass("active").siblings().removeClass("active");
   });
   $("nav a#repos").trigger('click'); //triggers click to make the repos tab active by default
