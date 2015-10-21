@@ -82,28 +82,14 @@
                 <a href="mirrors">Mirrors</a>
               </section>
               <ul id="repo-list">
-                <li class="repo-list-item">
+                <li class="repo-list-item" ng-repeat="repo in repos | orderBy: '-updated_at'">
                   <p class="repo-stats">{{repo.forks_count}}</p>
                   <p class="repo-stats">{{repo.stargazers_count}}</p>
                   <p class="repo-stats">{{repo.language}}</p>
                   <h3>{{repo.name}}</h3>
                   <p id="repo-description">{{repo.description}}</p>
-                  <p id="update-time">{{repo.updated_at | date}}</p>
+                  <p id="update-time">Updated: {{repo.updated_at | date}}</p>
                 </li>
-                <!-- <li class="repo-list-item">
-                  <p class="repo-stats">1,112</p>
-                  <p class="repo-stats">1,401</p>
-                  <h3>Hello-World</h3>
-                  <p id="repo-description">This your first repo!</p>
-                  <p id="update-time">Updated 4 days ago</p>
-                </li>
-                <li class="repo-list-item">
-                  <p class="repo-stats">17</p>
-                  <p class="repo-stats">10</p>
-                  <p class="repo-stats">CSS</p>
-                  <h3>octocat.github.io</h3>
-                  <p id="update-time">Updated 4 hours ago</p>
-                </li> -->
               </ul>
             </section> <!--end of repos panel-->
             <section id="activity" class="panel">

@@ -35,7 +35,7 @@ angular.module("tiy-github", [])
   .run(function($http, $rootScope){
      $http.get("../apis/github/users/s4dmw/repositories.json")
       .then(function(arguments){
-        $rootScope.repo = arguments.data[0];
+        $rootScope.repos = arguments.data;
       });
     })
 
