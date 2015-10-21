@@ -24,24 +24,24 @@
           <a href="#" class="tablet-repos">Repositories</a>
         </nav>
         <div class="tablet-view-container">
-          <section id="user-info" ng-Controller="UserInfo as user">
-            <img ng-src="{{user.avatar_url}}">
+          <section id="user-info">
+            <img ng-src="{{avatar_url}}">
             <section id="user-name">
-              <h1>{{user.name}}<h1>
-              <h2>{{user.login}}</h2>
+              <h1>{{name}}<h1>
+              <h2>{{login}}</h2>
             </section>
             <ul id="details">
-              <li>{{user.company}}</li>
-              <li>{{user.location}}</li>
-              <li><a href={{user.email}}>{{user.email}}</a></li>
-              <li><a href={{user.blog}}>{{user.blog}}</a></li>
-              <li>Joined on {{user.created_at | date}}</li>
+              <li>{{company}}</li>
+              <li>{{location}}</li>
+              <li><a href={{user.email}}>{{email}}</a></li>
+              <li><a href={{user.blog}}>{{blog}}</a></li>
+              <li>Joined on {{created_at | date}}</li>
             </ul>
             <section id="stats">
               <button class="tablet-view">Follow</button>
               <section class="col-1-3">
                 <a id="followers">
-                  <strong>{{user.followers}}</strong>
+                  <strong>{{followers}}</strong>
                   <span>Followers</span>
                 </a>
               </section>
@@ -53,7 +53,7 @@
               </section>
               <section class="col-1-3">
                 <a id="Following">
-                  <strong>{{user.following}}</strong>
+                  <strong>{{following}}</strong>
                   <span>Following</span>
                 </a>
               </section>
@@ -72,7 +72,7 @@
             <section id="contributions" class ="panel">
               <h2>contributions section is now active</h2>
             </section>
-            <section id="repos" class="panel" ng-Controller="Repositories as repo">
+            <section id="repos" class="panel">
               <section id="repos-top">
                 <textarea placeholder="Find a repository"></textarea>
                 <button>search</button>
@@ -83,12 +83,12 @@
               </section>
               <ul id="repo-list">
                 <li class="repo-list-item">
-                  <p class="repo-stats">{{repo.forks_count}}</p>
-                  <p class="repo-stats">{{repo.stargazers_count}}</p>
-                  <p class="repo-stats">{{repo.language}}</p>
-                  <h3>{{repo.name}}</h3>
-                  <p id="repo-description">{{repo.description}}</p>
-                  <p id="update-time">{{repo.updated_at | date}}</p>
+                  <p class="repo-stats">{{forks_count}}</p>
+                  <p class="repo-stats">{{stargazers_count}}</p>
+                  <p class="repo-stats">{{language}}</p>
+                  <h3>{{name}}</h3>
+                  <p id="repo-description">{{description}}</p>
+                  <p id="update-time">{{updated_at | date}}</p>
                 </li>
                 <li class="repo-list-item">
                   <p class="repo-stats">1,112</p>

@@ -23,34 +23,32 @@
     $("section#repos").addClass("active");
   });
 
-var app = angular.module("tiy-github", [ ]);
+angular.module("tiy-github", [])
 
-app.controller("UserInfo", function(){
-  // console.log("UserInfo controller is running");
-  // console.log(s4dmw.name);
+.run(function($rootScope) {
+    $rootScope.name = s4dmw.name;
+    $rootScope.avatar_url = s4dmw.avatar_url
+    $rootScope.name = s4dmw.name;
+    $rootScope.login = s4dmw.login;
+    $rootScope.company = s4dmw.company;
+    $rootScope.location = s4dmw.location;
+    $rootScope.email = s4dmw.email;
+    $rootScope.blog = s4dmw.blog;
+    $rootScope.created_at = s4dmw.created_at;
+    $rootScope.followers = s4dmw.followers;
+    $rootScope.following = s4dmw.following;
 
-  this.avatar_url = s4dmw.avatar_url
-  this.name = s4dmw.name;
-  this.login = s4dmw.login;
-  this.company = s4dmw.company;
-  this.location = s4dmw.location;
-  this.email = s4dmw.email;
-  this.blog = s4dmw.blog;
-  this.created_at = s4dmw.created_at;
-  this.followers = s4dmw.followers;
-  this.following = s4dmw.following;
+    $rootScope.forks_count = repo.forks_count;
+    $rootScope.stargazers_count = repo.stargazers_count;
+    $rootScope.language = repo.language;
+    $rootScope.name = repo.name;
+    $rootScope.description = repo.description;
+    $rootScope.updated_at = repo.updated_at;
 
-});
+    // $http.get("../apis/github/users/s4dmw.json")
+    // });
+  });
 
-app.controller("Repositories", function(){
-
-  this.forks_count = repo.forks_count;
-  this.stargazers_count = repo.stargazers_count;
-  this.language = repo.language;
-  this.name = repo.name;
-  this.description = repo.description;
-  this.updated_at = repo.updated_at;
-});
 
 
 
