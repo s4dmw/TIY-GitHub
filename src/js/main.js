@@ -1,27 +1,16 @@
 (function(){
-  // console.log("IIFE working!") //tracer bullet
-  // $.ajax({url: "https://api.github.com/users/octocat"});
-  // console.log($.ajax({url:"../apis/github/users/octocat.json"}));
 
-
-  // console.log($.ajax("../apis/github/users/octocat.json"));
-  // $.ajax("../apis/github/users/octocat.json").then(function(){
-  //   console.log(arguments)
-  // });
-  // var email;
-  // console.log("first email: " + email);
-  // $.ajax("../apis/github/users/octocat.json").then(function(){
-  //   console.log(arguments[0].email);
-  //   email = arguments[0].email;
-  //   console.log("email: " + email);
-  // });
-  // console.log("outside the function - email: " + email);
 
   $("nav#tabs a").on('click', function(){
     $(this).addClass("active").siblings().removeClass("active");
-    $($(this).attr("href")).addClass("active").siblings().removeClass("active");
+    activeId = 'section#' + $(this).attr("id");
+    $(activeId).addClass("active").siblings().removeClass("active");
   });
-  $("a[href='#repos'").trigger('click'); //triggers click to make the repos tab active by default
+  $("nav a#repos").trigger('click'); //triggers click to make the repos tab active by default
+
+
+
+
 
   $.getJSON("../apis/github/users/s4dmw.json", function(){
     info = arguments[0];
