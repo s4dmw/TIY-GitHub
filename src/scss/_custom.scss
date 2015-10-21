@@ -17,11 +17,9 @@ div {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  // width: 1000px;
 }
 
 section#user-info {
-  // background-color: lightgray;
   box-sizing: border-box;
   float: left;
   width: 24%;
@@ -62,7 +60,6 @@ section#user-info {
 
 
 section#main {
-  // background-color: lightgray;
   float: left;
   margin-left: 1%;
   width: 74%;
@@ -73,16 +70,12 @@ section#main {
 
   }
   nav#tabs a.active {
-    // background-color: gray;
-    border-left: solid 1px lightgray;
-    border-top: solid 1px lightgray;
-    border-right: solid 1px lightgray;
-    border-bottom-color: black;
-    margin-bottom: 1px;
+    border: solid 1px lightgray;
+    border-bottom: solid 1px white;
+
 
   }
   nav#tabs a {
-    // background-color: gray;
     color: black;
     display: inline-block;
     font-weight: 400;
@@ -95,23 +88,7 @@ section#main {
     padding-bottom: 2%;
     border-collapse: collapse;
   }
-  // nav#tabs h3.active {
-  //   // background-color: gray;
-  //   border-left: solid 1px lightgray;
-  //   border-top: solid 1px lightgray;
-  //   border-right: solid 1px lightgray;
-  //   margin-bottom: 1px;
-  // }
 
-  // h3#contributions::before {
-  //   content: '\f06b';
-  // }
-  // h3#repos::before {
-  //   content: '\f001';
-  // }
-  // h3#activity::before {
-  //   content: '\f034';
-  // }
 
   #buttons {
     float: right;
