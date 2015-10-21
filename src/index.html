@@ -97,12 +97,14 @@
               <h2>activity section is now active</h2>
             </section>
             <section id="comments" class="panel" >
-              <div class="comment-box">
-                <textarea name="name" rows="3" cols="40"></textarea>
-              </div>
+              <form class="comment-box">
+                <!-- <textarea name="name" rows="3" cols="40"></textarea> -->
+                <input id="GET-name" type="text" name="comment">
+                <input type="submit" value="Submit">
+              </form>
               <div class="comment" ng-repeat="comments in comments">
-              <!-- <img ng-src="{{comments.user.avatar_url}}" /> -->
-              <a href="{{comments.user.html_url}}">{{comments.user.login}}</a>commented at {{comments.created_at | date}}
+              <!-- <img ng-src="{{comments.user.avatar_url}}" />
+              <a href="{{comments.user.html_url}}">{{comments.user.login}}</a>commented <a href="{{comments.url}}"> {{comments.created_at | timeago}}</a> -->
               <br>
               {{comments.body}}
               <br>
@@ -122,6 +124,7 @@
         <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/lodash/lodash.js"></script>
         <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/ng-timeago/ngtimeago.js"></script>
         <script src="../bower_components/normalize-strings/normalize.js"></script>
         <!-- endbower -->
         <script src="js/plugins.js"></script>

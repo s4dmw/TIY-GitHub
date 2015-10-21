@@ -25,7 +25,7 @@
 })();//end jQuery IIFE
 
 ;(function(){ //anuglar IIFE
-angular.module("tiy-github", [])
+angular.module("tiy-github", ['ngtimeago'])
 
 .run(function($http, $rootScope){
    $http.get("../apis/github/users/s4dmw.json")
