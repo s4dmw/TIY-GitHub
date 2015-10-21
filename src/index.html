@@ -97,7 +97,11 @@
               <h2>activity section is now active</h2>
             </section>
             <section id="comments" class="panel" >
+              <div class="comment-box">
+                <textarea name="name" rows="3" cols="40"></textarea>
+              </div>
               <div class="comment" ng-repeat="comments in comments">
+              <!-- <img ng-src="{{comments.user.avatar_url}}" /> -->
               <a href="{{comments.user.html_url}}">{{comments.user.login}}</a>commented at {{comments.created_at | date}}
               <br>
               {{comments.body}}

@@ -3,7 +3,6 @@
   $("nav#tabs a").on('click', function(){
     $(this).addClass("active").siblings().removeClass("active");
     activeId = 'section#' + $(this).attr("id");
-    console.log(activeId);
     $(activeId).addClass("active").siblings().removeClass("active");
   });
   $("nav a#repos").trigger('click'); //triggers click to make the repos tab active by default
@@ -23,7 +22,9 @@
     $("section#user-info").removeClass("active");
     $("section#repos").addClass("active");
   });
+})();//end jQuery IIFE
 
+;(function(){ //anuglar IIFE
 angular.module("tiy-github", [])
 
 .run(function($http, $rootScope){
@@ -45,6 +46,4 @@ angular.module("tiy-github", [])
       $rootScope.comments = arguments.data;
     });
   })
-
-
 })();
