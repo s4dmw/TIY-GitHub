@@ -26,6 +26,10 @@
 angular.module("tiy-github", [])
 
 .run(function($rootScope) {
+//   $http.get("../apis/github/users/s4dmw.json")
+// }).then(function({
+//   $rootScope.name = data.name;
+// }));
     $rootScope.name = s4dmw.name;
     $rootScope.avatar_url = s4dmw.avatar_url
     $rootScope.name = s4dmw.name;
@@ -45,8 +49,7 @@ angular.module("tiy-github", [])
     $rootScope.description = repo.description;
     $rootScope.updated_at = repo.updated_at;
 
-    // $http.get("../apis/github/users/s4dmw.json")
-    // });
+
   });
 
 
