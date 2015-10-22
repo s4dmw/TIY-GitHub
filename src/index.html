@@ -97,36 +97,24 @@
               <h2>activity section is now active</h2>
             </section>
             <section id="comments" class="panel" >
-              <article class="comment" ng-repeat="comments in comments">
+              <article class="comment" ng-repeat="comment in comments">
                 <div class="col-1">
-                  <img ng-src="{{comments.user.avatar_url}}" />
+                  <img ng-src="{{comment.user.avatar_url}}" />
                 </div>
                 <div class="col-2">
-                  <section class="user-name"><a class="user-name" href="{{comments.user.html_url}}">{{comments.user.login}}</a> commented <a href="{{comments.url}}"> {{comments.created_at | timeago}}</a></section>
-                  <section>{{comments.body}}</section>
+                  <section class="user-name"><a class="user-name" href="{{comment.user.html_url}}">{{comment.user.login}}</a> commented <a href="{{comment.url}}"> {{comment.created_at | timeago}}</a></section>
+                  <section>{{comment.body}}</section>
                 </div>
             </article>
-
-                <!-- <form class="comment-box">
-                  <input id="GET-name" type="text" name="comment">
-                  <input type="submit" value="Submit">
-                </form> -->
-                <form name="commentForm" class="comment-form" ng-controller="commentController as commentCtrl" ng-submit="commentForm.$valid && commentCtrl.addComment()" novalidate>
-
-                                <article class="comment-box">
-
-                                  <textarea name="body" ng-model="commentCtrl.comment.body" required></textarea>
-                                <!-- <label>by:</label>
-                                <input name="author" ng-model="commentCtrl.comment.author" type="email" required /> -->
-                                <input type="submit" value="Submit" />
-                                <blockquote>
-                                  Preview: {{commentCtrl.comment.body}}
-                                </blockquote>
-                              </article>
-
-                              </form>
-
-            </section>
+            <form name="commentForm" class="comment-form" ng-controller="commentController as commentCtrl" ng-submit="commentForm.$valid && commentCtrl.addComment()" novalidate>
+              <article class="comment-box">
+                <textarea name="body" ng-model="commentCtrl.comment.body" required></textarea>
+                <input type="submit" value="Submit" />
+                <blockquote>Preview: {{commentCtrl.comment.body}}
+                </blockquote>
+              </article>
+            </form>
+          </section>
           </section>
         </div> <!-- end tablet view container -->
       </div>
