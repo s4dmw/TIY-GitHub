@@ -5,7 +5,7 @@
     activeId = 'section#' + $(this).attr("id");
     $(activeId).addClass("active").siblings().removeClass("active");
   });
-  $("nav a#repos").trigger('click'); //triggers click to make the repos tab active by default
+  $("nav a#comments").trigger('click'); //triggers click to make the repos tab active by default
 
   //mobile tabs
   $("nav#tablet-view-left").click(function(){

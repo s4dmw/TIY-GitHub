@@ -95,6 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 @import 'custom'; // What no underscore? NO! No underscore!
+@import 'comments';
 @media (max-width: 900px){@import 'tablet';}
 @media (max-width: 575px){@import 'mobile';}
 

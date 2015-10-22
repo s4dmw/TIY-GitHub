@@ -74,7 +74,7 @@
               <h2>contributions section is now active</h2>
             </section>
             <section id="repos" class="panel">
-              <section id="repos-top">
+              <!-- <section id="repos-top">
                 <textarea placeholder="Find a repository"></textarea>
                 <button>search</button>
                 <a href="all">All</a>
@@ -91,20 +91,21 @@
                   <p id="repo-description">{{repo.description}}</p>
                   <p id="update-time">Updated: {{repo.updated_at | date}}</p>
                 </li>
-              </ul>
+              </ul> -->
             </section> <!--end of repos panel-->
             <section id="activity" class="panel">
               <h2>activity section is now active</h2>
             </section>
             <section id="comments" class="panel" >
-              <div class="comment" ng-repeat="comments in comments">
-              <!-- <img ng-src="{{comments.user.avatar_url}}" /> -->
-              <a href="{{comments.user.html_url}}">{{comments.user.login}}</a> commented <a href="{{comments.url}}"> {{comments.created_at | timeago}}</a>
-              <br>
-              {{comments.body}}
-              <br>
-              <br>
-              </div>
+              <article class="comment" ng-repeat="comments in comments">
+                <div class="col-1">
+                  <img ng-src="{{comments.user.avatar_url}}" />
+                </div>
+                <div class="col-2">
+                  <section class="user-name"><a class="user-name" href="{{comments.user.html_url}}">{{comments.user.login}}</a> commented <a href="{{comments.url}}"> {{comments.created_at | timeago}}</a></section>
+                  <section>{{comments.body}}</section>
+                </div>
+            </article>
               <!-- <form class="comment-box">
                 <input id="GET-name" type="text" name="comment">
                 <input type="submit" value="Submit">

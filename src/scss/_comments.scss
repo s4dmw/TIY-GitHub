@@ -1,0 +1,50 @@
+section#comments {
+  // margin: 0;
+
+  article.comment {
+    background-color: gray;
+
+    div.col-1 {
+      width: 10%;
+      float:left;
+      margin: 0;
+
+      img {
+        width: 48px;
+      }
+    } //div.col-1
+
+    div.col-2 {
+      width: 90%;
+      float: left;
+      border: solid 1px lightgray;
+      margin-bottom: 15px;
+      :after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      section {
+        padding: 10px;
+      }
+      section.user-name {
+        background-color: #f2f8fa;
+        a {
+          color: black;
+        }
+        a.user-name {
+          font-weight: bold;
+          float: left;
+          padding-right: 5px;
+        }
+      }
+      section.ng-binding {
+        background-color: white;
+        border-top: solid 1px lightgray;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+    }//div.col-2
+  }
+}
