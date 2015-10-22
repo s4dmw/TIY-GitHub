@@ -46,4 +46,13 @@ angular.module("tiy-github", ['ngtimeago'])
       $rootScope.comments = arguments.data;
     });
   })
+
+  .controller("commentController", function(){
+  this.comment = {};
+  this.addComment = function($http){
+    console.log(this.comment.body);
+    // $http.get("../apis/github/repos/TIY-Durham/2015-Fall-FEE/505/test.json").then(function(){console.log("test")});
+    this.comment = {};
+  };
+});
 })();

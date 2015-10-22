@@ -97,19 +97,30 @@
               <h2>activity section is now active</h2>
             </section>
             <section id="comments" class="panel" >
-              <form class="comment-box">
-                <!-- <textarea name="name" rows="3" cols="40"></textarea> -->
-                <input id="GET-name" type="text" name="comment">
-                <input type="submit" value="Submit">
-              </form>
               <div class="comment" ng-repeat="comments in comments">
-              <!-- <img ng-src="{{comments.user.avatar_url}}" />
-              <a href="{{comments.user.html_url}}">{{comments.user.login}}</a>commented <a href="{{comments.url}}"> {{comments.created_at | timeago}}</a> -->
+              <!-- <img ng-src="{{comments.user.avatar_url}}" /> -->
+              <a href="{{comments.user.html_url}}">{{comments.user.login}}</a> commented <a href="{{comments.url}}"> {{comments.created_at | timeago}}</a>
               <br>
               {{comments.body}}
               <br>
               <br>
               </div>
+              <!-- <form class="comment-box">
+                <input id="GET-name" type="text" name="comment">
+                <input type="submit" value="Submit">
+              </form> -->
+
+              <form name="commentForm" ng-controller="commentController as commentCtrl" ng-submit="commentForm.$valid && commentCtrl.addComment()" novalidate>
+                              <blockquote>
+                                Preview: {{commentCtrl.comment.body}}
+                              </blockquote>
+                                <textarea name="body" ng-model="commentCtrl.comment.body" required></textarea>
+                              <!-- <label>by:</label>
+                              <input name="author" ng-model="commentCtrl.comment.author" type="email" required /> -->
+                              <input type="submit" value="Submit" />
+                            </form>
+
+
             </section>
           </section>
         </div> <!-- end tablet view container -->
