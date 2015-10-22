@@ -5,7 +5,7 @@
     activeId = 'section#' + $(this).attr("id");
     $(activeId).addClass("active").siblings().removeClass("active");
   });
-  $("nav a#comments").trigger('click'); //triggers click to make the repos tab active by default
+  $("nav a#repos").trigger('click'); //triggers click to make the repos tab active by default
 
   //mobile tabs
   $("nav#tablet-view-left").click(function(){
@@ -28,21 +28,25 @@
 angular.module("tiy-github", ['ngtimeago'])
 
 .run(function($http, $rootScope){
-   $http.get("../apis/github/users/s4dmw.json")
+  // $http.get("https://api.github.com/users/s4dmw")
+  $http.get("../apis/github/users/s4dmw.json")
     .then(function(arguments){
       $rootScope.user = arguments.data;
     });
   })
 
   .run(function($http, $rootScope){
-     $http.get("../apis/github/users/s4dmw/repositories.json")
+    // $http.get("https://api.github.com/users/s4dmw/repos")
+    $http.get("../apis/github/users/s4dmw/repositories.json")
       .then(function(arguments){
         $rootScope.repos = arguments.data;
       });
     })
 
   .run(function($http, $rootScope){
-    $http.get("../apis/github/repos/TIY-Durham/2015-Fall-FEE/505/comments.json").then(function(arguments){
+    // $http.get("https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/505/comments")
+    $http.get("../apis/github/repos/TIY-Durham/2015-Fall-FEE/505/comments.json")
+    .then(function(arguments){
       $rootScope.comments = arguments.data;
     });
   })
