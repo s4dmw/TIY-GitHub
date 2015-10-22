@@ -106,21 +106,25 @@
                   <section>{{comments.body}}</section>
                 </div>
             </article>
-              <!-- <form class="comment-box">
-                <input id="GET-name" type="text" name="comment">
-                <input type="submit" value="Submit">
-              </form> -->
 
-              <form name="commentForm" ng-controller="commentController as commentCtrl" ng-submit="commentForm.$valid && commentCtrl.addComment()" novalidate>
-                              <blockquote>
-                                Preview: {{commentCtrl.comment.body}}
-                              </blockquote>
-                                <textarea name="body" ng-model="commentCtrl.comment.body" required></textarea>
-                              <!-- <label>by:</label>
-                              <input name="author" ng-model="commentCtrl.comment.author" type="email" required /> -->
-                              <input type="submit" value="Submit" />
-                            </form>
+                <!-- <form class="comment-box">
+                  <input id="GET-name" type="text" name="comment">
+                  <input type="submit" value="Submit">
+                </form> -->
+                <form name="commentForm" class="comment-form" ng-controller="commentController as commentCtrl" ng-submit="commentForm.$valid && commentCtrl.addComment()" novalidate>
 
+                                <article class="comment-box">
+
+                                  <textarea name="body" ng-model="commentCtrl.comment.body" required></textarea>
+                                <!-- <label>by:</label>
+                                <input name="author" ng-model="commentCtrl.comment.author" type="email" required /> -->
+                                <input type="submit" value="Submit" />
+                                <blockquote>
+                                  Preview: {{commentCtrl.comment.body}}
+                                </blockquote>
+                              </article>
+
+                              </form>
 
             </section>
           </section>
