@@ -1,6 +1,6 @@
 {
   "name": "tiy-github",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/s4dmw/TIY-GitHub#readme",
   "devDependencies": {
+    "bower": "^1.6.3",
     "browser-sync": "^2.9.6",
     "chai": "^3.3.0",
     "mocha": "^2.3.3",
-    "node-sass": "^3.3.3"
+    "node-sass": "^3.3.3",
+    "wiredep": "^2.2.2"
   }
 }
