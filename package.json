@@ -23,7 +23,9 @@
     "browser-sync": "^2.9.6",
     "chai": "^3.3.0",
     "mocha": "^2.3.3",
-    "node-sass": "^3.3.3",
+    "node-sass": "^3.3.3"
+  },
+  "dependencies": {
     "wiredep": "^2.2.2"
   }
 }

@@ -25,6 +25,7 @@
     "lodash": "~3.10.1",
     "modernizr": "~3.1.0",
     "normalize-css": "normalize.css#~3.0.3",
-    "angular": "~1.4.7"
+    "angular": "~1.4.7",
+    "normalize-strings": "normalize#~1.0.4"
   }
 }

@@ -17,11 +17,9 @@ div {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  // width: 1000px;
 }
 
 section#user-info {
-  // background-color: lightgray;
   box-sizing: border-box;
   float: left;
   width: 24%;
@@ -62,7 +60,6 @@ section#user-info {
 
 
 section#main {
-  // background-color: lightgray;
   float: left;
   margin-left: 1%;
   width: 74%;
@@ -72,17 +69,16 @@ section#main {
     border-bottom: solid 1px lightgray;
 
   }
-  nav#tabs h3.active {
-    // background-color: gray;
-    border-left: solid 1px lightgray;
-    border-top: solid 1px lightgray;
-    border-right: solid 1px lightgray;
-    border-bottom-color: black;
-    margin-bottom: 1px;
+  nav#tabs a.active {
+    border: solid 1px lightgray;
+    border-bottom: solid 2px white;
+    margin-bottom: -1px;
+
+
 
   }
-  nav#tabs h3 {
-    // background-color: gray;
+  nav#tabs a {
+    color: black;
     display: inline-block;
     font-weight: 400;
     font-size: 1em;
@@ -94,23 +90,7 @@ section#main {
     padding-bottom: 2%;
     border-collapse: collapse;
   }
-  // nav#tabs h3.active {
-  //   // background-color: gray;
-  //   border-left: solid 1px lightgray;
-  //   border-top: solid 1px lightgray;
-  //   border-right: solid 1px lightgray;
-  //   margin-bottom: 1px;
-  // }
 
-  // h3#contributions::before {
-  //   content: '\f06b';
-  // }
-  // h3#repos::before {
-  //   content: '\f001';
-  // }
-  // h3#activity::before {
-  //   content: '\f034';
-  // }
 
   #buttons {
     float: right;
@@ -118,9 +98,12 @@ section#main {
   }
 } //end top of main section
 
-
-section.panel.inactive {
+section.panel {
   display: none;
+}
+
+section.panel.active {
+  display: inherit;
 }
 
 section#repos-top {
