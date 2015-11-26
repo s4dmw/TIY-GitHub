@@ -58,12 +58,12 @@ angular.module("tiy-github", ['ngtimeago'])
   //     });
   // })
 
-  .controller("commentController", function(){
+  .controller("commentController", function($http){
   this.comment = {};
   this.addComment = function($http){
     console.log(this.comment.body);
-    this.comment = {};
-    // $http.get("../apis/github/users/test.json").then(function(arguments){console.log("test")});
+    // this.comment = {};
+    // $http.get("/src/test.json").then(function(arguments){console.log("test")});
   };
 
 });
